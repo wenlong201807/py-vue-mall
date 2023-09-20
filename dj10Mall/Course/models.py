@@ -85,7 +85,9 @@ class CourseDetail(models.Model):
        拆出来这张表的目的： 课程表页面对应课程列表页，访问量大，因此接口查询应尽量快速，
        要达到此目的，后端应尽可能快的返回数据，拆表是降低课程表数据量的一个很好的解决方案
     """
+    # course 添加关系类型的作用，不在CourseDetail表中展示course字段
     course = models.OneToOneField(to="Course", on_delete=models.CASCADE)
+
     hours = models.IntegerField(verbose_name="课时", default=7)
     course_slogan = models.CharField(max_length=125, blank=True, null=True, verbose_name="课程口号")
     video_brief_link = models.CharField(max_length=255, blank=True, null=True)

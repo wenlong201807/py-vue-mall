@@ -36,6 +36,7 @@ class CourseView(APIView):
 class CourseDetailView(APIView):
     def get(self, request, pk):
         # 根据pk获取到课程详情对象
+        # 跨course表查询方式 course__id=pk => 课程详情，必须是现有这个课程，才能有对应的课程详情
         course_detail_obj = models.CourseDetail.objects.filter(course__id=pk).first()
         if not course_detail_obj:
             return Response({"code": 1001, "error": "查询的课程详情不存在"})
