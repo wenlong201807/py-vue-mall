@@ -13,7 +13,7 @@ class CategoryView(APIView):
         # 通过ORM操作获取所有分类数据
         queryset = models.Category.objects.all()
         # 利用序列化器去序列化我们的数据
-        ser_obj = CategorySerializer(queryset, many=True)
+        ser_obj = CategorySerializer(queryset, many=True)  # 返回多条数据时，加上many=True
         # 返回
         return Response(ser_obj.data)
 
