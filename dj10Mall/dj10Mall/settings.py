@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/dev/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/dev/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,7 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'crud.apps.CrudConfig',
-    'rest_framework',
+
+    'Course.apps.CourseConfig',
+    'Login',
+    'Shopping',
 
     'corsheaders',  # 跨域模块
 ]
@@ -144,6 +148,18 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/dev/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# Media配置
+MEDIA_URL = "media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+
+VIDEO_CONFIG = {
+    "POLYV": {
+        "USER_ID": "03b56854c0",
+        "SECRET_KEY": "G128dqgzTp",
+    }
+}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/dev/ref/settings/#default-auto-field

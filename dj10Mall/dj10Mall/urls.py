@@ -14,14 +14,31 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include, re_path
+from django.views.static import serve
+from dj10Mall import settings
+from Login.views import GeetestView
 
 from testApp.views import DemoView
 from crud.views import CrudView
+
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('demo/', DemoView.as_view()),
     path('crud/', CrudView.as_view()),
+
+    path('api/course/', include("Course.urls")),
+    path('api/shop/', include("Shopping.urls")),
+    path('api/', include("Login.urls")),
+    path('pc-geetest/register', GeetestView.as_view()),
+    path('pc-geetest/ajax_validate', GeetestView.as_view()),
+
+    # media路径配置
+    # path('media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT})
+    re_path('media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT})
+
+    
 ]

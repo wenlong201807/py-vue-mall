@@ -15,7 +15,7 @@ class Food(models.Model):
     """
     title = models.CharField(max_length=32)
     # 不会生成字段 只用于反向查询
-    coupons = GenericRelation(to="Coupon")
+    # coupons = GenericRelation(to="Coupon")
 
 
 class Fruit(models.Model):
@@ -63,8 +63,8 @@ class Fruit(models.Model):
 class Coupon(models.Model):
     title = models.CharField(max_length=32)
     # 第一步
-    content_type = models.ForeignKey(to=ContentType, on_delete=models.CASCADE)
+    # content_type = models.ForeignKey(to=ContentType, on_delete=models.CASCADE)
     # 第二步
     object_id = models.IntegerField()
     # 第三步 不会生成字段
-    content_object = GenericForeignKey("content_type", "object_id")
+    # content_object = GenericForeignKey("content_type", "object_id")

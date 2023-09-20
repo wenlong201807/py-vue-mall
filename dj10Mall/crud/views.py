@@ -24,10 +24,10 @@ class CrudView(APIView):
         # print(coupon_obj.title)
         #
         # # 通过ContentType表找 指定表模型
-        content = ContentType.objects.filter(app_label="crud", model="food").first()
-        print(content)
-        model_class = content.model_class()
-        ret = model_class.objects.all()  # 再查找指定表的所有表数据
-        print(ret)
+        # content = ContentType.objects.filter(app_label="crud", model="food").first()
+        # print(content)
+        # model_class = content.model_class()
+        # ret = model_class.objects.all()  # 再查找指定表的所有表数据
+        # print(ret)
 
         return Response("ContentType测试")
