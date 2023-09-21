@@ -157,7 +157,7 @@ class CourseChapter(models.Model):
 
 
 class CourseSection(models.Model):
-    """课时表"""
+    """课时表【具体某一堂课】"""
     chapter = models.ForeignKey(to="CourseChapter", related_name="course_sections", on_delete=models.CASCADE)
     title = models.CharField(max_length=32, verbose_name="课时")
     section_order = models.SmallIntegerField(verbose_name="课时排序",
@@ -220,9 +220,17 @@ class PricePolicy(models.Model):
 
 
 class OftenAskedQuestion(models.Model):
-    """常见问题"""
+    """
+    常见问题
+
+    content_type 哪张表的评论
+    object_id 对应评论表中的哪条数据
+    question 评论这条数据的提问
+    answer 评论这条数据的答案
+    """
     content_type = models.ForeignKey(ContentType, on_delete=models.CASCADE)  # 关联course or degree_course
     object_id = models.PositiveIntegerField()
+    # GenericForeignKey 不会在表中生成字段
     content_object = GenericForeignKey('content_type', 'object_id')
 
     question = models.CharField(max_length=255)

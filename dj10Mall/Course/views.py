@@ -58,7 +58,8 @@ class CourseChapterView(APIView):
 
 class CourseCommentView(APIView):
     def get(self, request, pk):
-        # 通过课程id找到课程所有的评论
+        # 通过课程id找到课程所有的评论【连续查询 course_comments子表】
+        # course_comments = GenericRelation("Comment") 反向查询
         queryset = models.Course.objects.filter(id=pk).first().course_comments.all()
         # 序列化
         ser_obj = CourseCommentSerializer(queryset, many=True)
@@ -68,6 +69,8 @@ class CourseCommentView(APIView):
 
 class QuestionView(APIView):
     def get(self, request, pk):
+        # 通过课程id找到课程所有的评论【连续查询 often_ask_questions子表】
+        # often_ask_questions = GenericRelation("OftenAskedQuestion") 反向查询
         queryset = models.Course.objects.filter(id=pk).first().often_ask_questions.all()
         ser_obj = QuestionSerializer(queryset, many=True)
         return Response(ser_obj.data)
