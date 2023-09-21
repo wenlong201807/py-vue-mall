@@ -1,4 +1,3 @@
-
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from utils.base_response import BaseResponse
@@ -34,6 +33,7 @@ class ShoppingCarView(APIView):
     # 加入购物车操作前，必须是登录状态
     authentication_classes = [LoginAuth, ]
 
+    # 加入购物车
     def post(self, request):
         res = BaseResponse()
         # 1, 获取前端传过来的数据以及user_id
@@ -81,11 +81,12 @@ class ShoppingCarView(APIView):
         res.data = "加入购物车成功"
         return Response(res.dict)
 
+    #  查看购物车列表
     def get(self, request):
         res = BaseResponse()
         # 1, 拼接redis key
         user_id = request.user.pk
-        shopping_car_key = SHOPPINGCAR_KEY % (user_id, "*")
+        shopping_car_key = SHOPPINGCAR_KEY % (user_id, "*")  # redis 支持模糊匹配
         # 2, 去redis中读取数据
         # 2.1 匹配所有的keys
         # 3，构建数据结构展示
@@ -96,6 +97,7 @@ class ShoppingCarView(APIView):
         res.data = ret
         return Response(res.dict)
 
+    # 修改购物车中的价格策略
     def put(self, request):
         # 前端 course_id  price_policy_id
         res = BaseResponse()
@@ -121,6 +123,7 @@ class ShoppingCarView(APIView):
         res.data = "更新成功"
         return Response(res.dict)
 
+    # 删除购物车的信息
     def delete(self, request):
         # course_list = [course_id, ]
         res = BaseResponse()
@@ -138,26 +141,3 @@ class ShoppingCarView(APIView):
             CONN.delete(key)
         res.data = "删除成功"
         return Response(res.dict)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
