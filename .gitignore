@@ -4,3 +4,5 @@ djvuemall/node_modules
 dj10Mall/.idea
 dj10Mall/venv
 # 4-lufeixuecheng_source
+
+migrations/
