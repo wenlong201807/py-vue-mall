@@ -22,8 +22,6 @@ from Login.views import GeetestView
 from testApp.views import DemoView
 from crud.views import CrudView
 
-
-
 urlpatterns = [
     path('admin/', admin.site.urls),
 
@@ -41,5 +39,4 @@ urlpatterns = [
     # 2.x版本的配置路径方式
     re_path('media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT})
 
-    
 ]
