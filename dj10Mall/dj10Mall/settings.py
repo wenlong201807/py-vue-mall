@@ -41,9 +41,9 @@ INSTALLED_APPS = [
 
     'crud.apps.CrudConfig',
 
+    'Login.apps.LoginConfig',
     'Course.apps.CourseConfig',
-    'Login',
-    'Shopping',
+    'Shopping.apps.ShoppingConfig',
 
     'corsheaders',  # 跨域模块
 ]

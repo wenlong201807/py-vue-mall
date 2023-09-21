@@ -1,14 +1,13 @@
-from django.db import models
-# Create your models here.
 
 from django.db import models
 from django.contrib.contenttypes.fields import GenericForeignKey, GenericRelation
 from django.contrib.contenttypes.models import ContentType
-
+from Shopping.models import OrderDetail, Coupon
+from Login.models import Account
 
 # 方便admin.py 中导入表格，默认的后台管理系统，录入数据使用
 __all__ = ["Category", "Course", "CourseDetail", "Teacher", "DegreeCourse", "CourseChapter",
-           "CourseSection", "PricePolicy", "OftenAskedQuestion", "Comment", "Account", "CourseOutline"]
+           "CourseSection", "PricePolicy", "OftenAskedQuestion", "Comment", "CourseOutline"]
 
 
 class Category(models.Model):
@@ -53,8 +52,8 @@ class Course(models.Model):
     study_num = models.IntegerField(verbose_name="学习人数",
                                     help_text="只要有人买课程，订单表加入数据的同时给这个字段+1")
 
-    # order_details = GenericRelation("OrderDetail", related_query_name="course")
-    # coupon = GenericRelation("Coupon")
+    order_details = GenericRelation(OrderDetail, related_query_name="course")
+    coupon = GenericRelation(Coupon)
     # 只用于反向查询不生成字段【***高技能手段***】
     price_policy = GenericRelation("PricePolicy")
     often_ask_questions = GenericRelation("OftenAskedQuestion")
@@ -255,7 +254,7 @@ class Comment(models.Model):
     # 每一个评论内容都是 一个具体的用户评论的，评论的内容是哪一个课程如何如何...
     # 因此， 要有关联 一个具体的用户
     content = models.TextField(max_length=1024, verbose_name="评论内容")
-    account = models.ForeignKey("Account", verbose_name="会员名", on_delete=models.CASCADE)
+    account = models.ForeignKey(Account, verbose_name="会员名", on_delete=models.CASCADE)
     date = models.DateTimeField(auto_now_add=True)  # 每一个评论，自动添加上评论时的时间
 
     def __str__(self):
@@ -266,21 +265,21 @@ class Comment(models.Model):
         db_table = verbose_name
         verbose_name_plural = verbose_name
 
-
-class Account(models.Model):
-    username = models.CharField(max_length=32, verbose_name="用户姓名")
-    pwd = models.CharField(max_length=32, verbose_name="密文密码")
-    # head_img = models.CharField(max_length=256, default='/static/frontend/head_portrait/logo@2x.png',
-    #                             verbose_name="个人头像")
-    balance = models.IntegerField(verbose_name="贝里余额", default=0)
-
-    def __str__(self):
-        return self.username
-
-    class Meta:
-        verbose_name = "11-用户表"
-        db_table = verbose_name
-        verbose_name_plural = verbose_name
+# 避免循环引用，迁移到 Login 模块
+# class Account(models.Model):
+#     username = models.CharField(max_length=32, verbose_name="用户姓名")
+#     pwd = models.CharField(max_length=32, verbose_name="密文密码")
+#     # head_img = models.CharField(max_length=256, default='/static/frontend/head_portrait/logo@2x.png',
+#     #                             verbose_name="个人头像")
+#     balance = models.IntegerField(verbose_name="贝里余额", default=0)
+#
+#     def __str__(self):
+#         return self.username
+#
+#     class Meta:
+#         verbose_name = "11-用户表"
+#         db_table = verbose_name
+#         verbose_name_plural = verbose_name
 
 
 class CourseOutline(models.Model):

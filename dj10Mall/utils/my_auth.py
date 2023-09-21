@@ -1,7 +1,7 @@
 from rest_framework.authentication import BaseAuthentication
 from rest_framework.exceptions import AuthenticationFailed
 from .redis_pool import POOL
-from Course.models import Account
+from Login.models import Account
 import redis
 
 CONN = redis.Redis(connection_pool=POOL)

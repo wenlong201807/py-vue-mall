@@ -3,7 +3,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import RegisterSerializer
 from utils.base_response import BaseResponse
-from Course.models import Account
+from .models import Account
 from utils.redis_pool import POOL
 import redis
 import uuid

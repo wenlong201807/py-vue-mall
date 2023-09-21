@@ -1,6 +1,6 @@
 
 from rest_framework import serializers
-from Course.models import Account
+from .models import Account
 import hashlib
 
 
