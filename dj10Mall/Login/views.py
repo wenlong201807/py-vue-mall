@@ -62,6 +62,7 @@ class LoginView(APIView):
 
 
 class TestView(APIView):
+    # 进入这个试图，都需要经过认证 如果不通过，则不执行后续代码
     authentication_classes = [LoginAuth, ]
 
     def get(self, request):
