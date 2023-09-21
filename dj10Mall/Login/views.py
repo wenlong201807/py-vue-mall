@@ -1,4 +1,4 @@
-from django.shortcuts import render
+
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from .serializers import RegisterSerializer
@@ -11,8 +11,7 @@ from utils.my_auth import LoginAuth
 from utils.geetest import GeetestLib
 from django.http import HttpResponse
 import json
-
-# Create your views here.
+import hashlib
 
 
 class RegisterView(APIView):
@@ -22,33 +21,39 @@ class RegisterView(APIView):
         # 用序列化器做校验
         ser_obj = RegisterSerializer(data=request.data)
         if ser_obj.is_valid():
-            ser_obj.save()
+            ser_obj.save()  # 保存到数据库
             res.data = ser_obj.data
-        else:
+        else:  # 没通过校验，返回错误消息
             res.code = 1020
             res.error = ser_obj.errors
         return Response(res.dict)
 
 
 class LoginView(APIView):
-
     def post(self, request):
         res = BaseResponse()
         username = request.data.get("username", "")
         pwd = request.data.get("pwd", "")
-        user_obj = Account.objects.filter(username=username, pwd=pwd).first()
+
+        # 需继续完善功能，不可重复登录【前端处理】
+        # 密码加盐处理，与注册时一致
+        pwd_salt = "wen_password" + pwd  # 加密的盐值
+        md5_num = hashlib.md5(pwd_salt.encode()).hexdigest()
+        md5_str = str(md5_num)
+
+        user_obj = Account.objects.filter(username=username, pwd=md5_str).first()
         if not user_obj:
             res.code = 1030
             res.error = "用户名或密码错误"
             return Response(res.dict)
         # 用户登录成功生成一个token写入redis
-        # 写入redis  token : user_id
+        # 写入redis  token : user_id 【Account 表中的id】
         conn = redis.Redis(connection_pool=POOL)
         try:
-            token = uuid.uuid4()
+            token = uuid.uuid4()  # 生成一个随机字符
             # conn.set(str(token), user_obj.id, ex=10)
-            conn.set(str(token), user_obj.id)
-            res.data = token
+            conn.set(str(token), user_obj.id)  # 存入到redis中
+            res.token = token
         except Exception as e:
             print(e)
             res.code = 1031
