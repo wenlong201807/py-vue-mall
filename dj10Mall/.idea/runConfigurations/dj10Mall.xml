@@ -14,13 +14,13 @@
     <option name="ADD_CONTENT_ROOTS" value="true" />
     <option name="ADD_SOURCE_ROOTS" value="true" />
     <option name="launchJavascriptDebuger" value="false" />
-    <option name="port" value="8080" />
-    <option name="host" value="" />
+    <option name="port" value="8000" />
+    <option name="host" value="localhost" />
     <option name="additionalOptions" value="" />
     <option name="browserUrl" value="http://127.0.0.1:8080/" />
     <option name="runTestServer" value="false" />
     <option name="runNoReload" value="false" />
-    <option name="useCustomRunCommand" value="true" />
+    <option name="useCustomRunCommand" value="false" />
     <option name="customRunCommand" value="python3.10 manage.py runserver" />
     <method v="2" />
   </configuration>
