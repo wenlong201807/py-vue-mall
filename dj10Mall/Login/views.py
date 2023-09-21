@@ -51,8 +51,8 @@ class LoginView(APIView):
         conn = redis.Redis(connection_pool=POOL)
         try:
             token = uuid.uuid4()  # 生成一个随机字符
-            # conn.set(str(token), user_obj.id, ex=10)
             conn.set(str(token), user_obj.id)  # 存入到redis中
+            # conn.set(str(token), user_obj.id, ex=10)  # 存入到redis中 并且设置过期时间
             res.token = token
         except Exception as e:
             print(e)
