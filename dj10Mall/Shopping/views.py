@@ -108,12 +108,12 @@ class ShoppingCarView(APIView):
         # 2, 校验数据的合法性
         # 2.1 course_id是否合法
         key = SHOPPINGCAR_KEY % (user_id, course_id)
-        if not CONN.exists(key):
+        if not CONN.exists(key):  # 某key 是否存在redis中
             res.code = 1043
             res.error = "课程id不合法"
             return Response(res.dict)
         # 2,2 price_policy_id是否合法
-        price_policy_dict = json.loads(CONN.hget(key, "price_policy_dict"))
+        price_policy_dict = json.loads(CONN.hget(key, "price_policy_dict"))  # 存入的时候是 json化，现在取出来使用，需要去json化
         if str(price_policy_id) not in price_policy_dict:
             res.code = 1044
             res.error = "价格策略不合法"
@@ -130,7 +130,7 @@ class ShoppingCarView(APIView):
         # 1 获取前端传来的数据以及user_id
         course_list = request.data.get("course_list", "")
         user_id = request.user.pk
-        # 2 校验course_id是否合法
+        # 2 校验course_id是否合法【是否在redis中，即是否是某用户中的物品】
         for course_id in course_list:
             key = SHOPPINGCAR_KEY % (user_id, course_id)
             if not CONN.exists(key):
