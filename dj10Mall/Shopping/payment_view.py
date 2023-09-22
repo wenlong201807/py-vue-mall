@@ -18,6 +18,7 @@ COON = redis.Redis(connection_pool=POOL)
 class PaymentView(APIView):
     authentication_classes = [LoginAuth, ]
 
+    #  支付
     def post(self, request):
         res = BaseResponse()
         # 1 获取数据
@@ -30,7 +31,7 @@ class PaymentView(APIView):
             res.code = 1070
             res.error = "抵扣的贝里错误"
             return Response(res.dict)
-        # 2.2 从用户的结算中心拿数据 跟数据库比对是否合法
+        # 2.2 从用户的结算中心拿数据 跟数据库比对是否合法【在redis中如果设置了过期时间，那么可能不存在了，下架了之类的】
         settlement_key = SETTLEMENT_KEY % (user_id, "*")
         all_keys = COON.scan_iter(settlement_key)
         # 课程id是否合法
@@ -105,11 +106,6 @@ class PaymentView(APIView):
             # 注意订单详情表有多个记录
             # 更改优惠券的使用状态
             # 更改用户表里的贝里 贝里要添加交易记录
-
-
-
-
-
 
 
     def account_price(self, coupon_dict, price):

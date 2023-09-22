@@ -16,7 +16,7 @@ class Coupon(models.Model):
     coupon_type_choices = ((0, '通用券'), (1, '满减券'), (2, '折扣券'))
     coupon_type = models.SmallIntegerField(choices=coupon_type_choices, default=0, verbose_name="券类型")
 
-    # 通用券 满减券 时，需要减掉相等的金额
+    # 通用券 满减券 时，需要减掉相等的金额 【有了默认值，后面的支付接口，计算优惠券后的金额更方便操作】
     money_equivalent_value = models.IntegerField(verbose_name="等值货币", null=True, blank=True, default=0)
     # 折扣券 时，按原来的价格进行折扣计算
     off_percent = models.PositiveSmallIntegerField("折扣百分比", help_text="只针对折扣券，例7.9折，写79", blank=True, null=True, default=100)
