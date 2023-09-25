@@ -65,6 +65,7 @@ CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:8080',
     'http://localhost:8080',
     'http://localhost:3000',
+    'http://localhost:8001',
     'http://192.168.4.15:3000',
     'http://47.98.181.79:6010',
     'http://wenlong.live:6010',
