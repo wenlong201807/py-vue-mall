@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/dev/howto/deployment/checklist/
 
@@ -26,7 +25,6 @@ SECRET_KEY = 'django-insecure-13b7uepydup!9s1#g!-1n8=@!gqd7eooj4%h#5zaxwwk#_@ndz
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -44,6 +42,8 @@ INSTALLED_APPS = [
     'Login.apps.LoginConfig',
     'Course.apps.CourseConfig',
     'Shopping.apps.ShoppingConfig',
+    'Student.apps.StudentConfig',
+    'UserInfo.apps.UserinfoConfig',
 
     'corsheaders',  # 跨域模块
 ]
@@ -91,7 +91,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'dj10Mall.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
 
@@ -112,7 +111,6 @@ DATABASES = {
     # }
 }
 
-
 # Password validation
 # https://docs.djangoproject.com/en/dev/ref/settings/#auth-password-validators
 
@@ -131,7 +129,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
 
@@ -143,7 +140,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/dev/howto/static-files/
 
@@ -152,7 +148,8 @@ STATIC_URL = 'static/'
 # Media配置
 MEDIA_URL = "media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
-
+# 继承默认的用户表
+AUTH_USER_MODEL = "UserInfo.UserInfo"
 
 VIDEO_CONFIG = {
     "POLYV": {

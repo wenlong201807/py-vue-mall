@@ -34,6 +34,8 @@ urlpatterns = [
     path('pc-geetest/register', GeetestView.as_view()),
     path('pc-geetest/ajax_validate', GeetestView.as_view()),
 
+    path('student/', include("Student.urls")),
+
     # media路径配置
     # 1.1版 path('media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT})
     # 2.x版本的配置路径方式

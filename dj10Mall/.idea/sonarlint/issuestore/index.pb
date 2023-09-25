@@ -21,8 +21,6 @@ Q
 !redis发布订阅者/连接池.py,2/7/2767129cb5410c5dfb943bb77633a6545246e316
 E
 docs/3.redis使用.md,6/3/6360642863c46a3b098464ad26c79cd039c67c36
-T
-$.idea/runConfigurations/dj10Mall.xml,b/4/b4b0d42d72c203c5b7fbe1f62086e449c3c5c8ac
 =
 Login/urls.py,d/d/dda2a30e590053b98039cfc6dcf77adf39d270b4
 F
@@ -31,8 +29,6 @@ A
 Shopping/views.py,b/4/b43463d79f4442e293f5132bd08230745fdfecf4
 >
 Course/apps.py,1/4/14ecc1631c0991e5b3b89bb1618e3534adba6d93
-H
-Shopping/payment_view.py,5/7/57c988f0185de98a47a6c8d558004af60371f749
 D
 Course/video_view.py,d/c/dc6e4c5238fcd96dc626ac8dffc9f48fe118fedc
 D
@@ -47,13 +43,9 @@ D
 utils/my_auth.py,4/1/41a0746f42af904587bb682cd6ae5cf96574a755
 ?
 Course/views.py,d/b/dbfe82b096e62b6ae7c2b44ed6a7bfeef7e64404
-?
-Course/admin.py,a/2/a2130786346ea6a536e9a4520ef20b66cbd48788
-@
-Course/models.py,b/9/b963b0dcf6f21984d9ad34b13bf564b2ddaed143
-F
-docs/2.解决问题.md,2/9/29dd5f989db46ce8db0218e3e38631a73c95263e
 E
 Course/serializers.py,1/9/1995a6c534763846fb9668f3fa76f80179052e29
 >
 Course/urls.py,9/5/9545fbb39739c62faf0e3a3796e78cc1db02b902
+H
+Shopping/payment_view.py,5/7/57c988f0185de98a47a6c8d558004af60371f749
