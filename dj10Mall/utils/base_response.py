@@ -1,6 +1,6 @@
 class BaseResponse(object):
     def __init__(self):
-        self.code = 1000
+        self.code = 200
         self.data = None
         self.error = None
 
