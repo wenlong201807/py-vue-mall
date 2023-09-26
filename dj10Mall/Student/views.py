@@ -11,6 +11,14 @@ from .serializers import ClssSerializer, StuCourseSerializer
 
 class ClssView(APIView):
     def get(self, request):
+        print('request.GET:', request.GET)
+        name = request.GET.get('name', '')
+        if name:
+            queryset = Clas.objects.filter(name__contains=name)
+            ser_obj = ClssSerializer(queryset, many=True)  # 返回多条数据时，加上many=True
+            # 返回
+            return Response(ser_obj.data)
+
         # 通过ORM操作获取所有分类数据
         queryset = Clas.objects.all()
         # 利用序列化器去序列化我们的数据
