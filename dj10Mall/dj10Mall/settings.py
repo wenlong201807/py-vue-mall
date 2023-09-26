@@ -155,24 +155,19 @@ AUTH_USER_MODEL = "UserInfo.UserInfo"
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
-    'formatters': {
-        'simple': {
-            'format': '[%(asctime)s] %(message)s'
-        },
-    },
     'handlers': {
         'console': {
             'level': 'DEBUG',
             'class': 'logging.StreamHandler',
-            'formatter': 'simple'
         },
     },
     'loggers': {
-        'django': {
+        'django.db.backends': {
             'handlers': ['console'],
-            'level': 'DEBUG',  # DEBUG 时 控制台打印出当前执行日志
+            'propagate': True,
+            'level': 'DEBUG',
         },
-    },
+    }
 }
 
 VIDEO_CONFIG = {
