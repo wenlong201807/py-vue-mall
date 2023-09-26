@@ -2,10 +2,11 @@ from django.contrib import admin
 from django.urls import path, include, re_path
 
 from Student.views import  add_student, delete_student,edit_student,elective,search,stu_excel
-from Student.views import ClssView, CourseView
+from Student.views import ClssView, ClssAddExcel, CourseView
 
 urlpatterns = [
     path('clsslist', ClssView.as_view()),
+    path('batchAddClss', ClssAddExcel.as_view()),
     path('courselist', CourseView.as_view()),
 
     path("add/", add_student),

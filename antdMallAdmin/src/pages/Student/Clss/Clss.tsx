@@ -1,8 +1,7 @@
-import type { ProColumns } from '@ant-design/pro-components';
-
 import React, { useState, useEffect } from 'react';
 import { message, Space, Table } from 'antd';
 import { clssCRUDApi } from '@/services/student';
+import UploadClss from './com/UploadClss';
 
 type DataSourceType = {
   id: React.Key;
@@ -26,10 +25,11 @@ export default () => {
     console.log(11, res);
     if (res) {
       await initList();
+      message.success('编辑成功');
     }
   };
   const delHandle = async (id: number) => {
-    const res = await clssCRUDApi('delete', { id });
+    const res = await clssCRUDApi('delete', { id: [id] });
     console.log(444, res);
     if (res) {
       await initList();
@@ -85,6 +85,9 @@ export default () => {
 
   return (
     <>
+      <div>
+        <UploadClss initList={initList} />
+      </div>
       <Table columns={columns} dataSource={dataSource} />
     </>
   );

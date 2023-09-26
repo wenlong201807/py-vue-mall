@@ -53,6 +53,42 @@ class ClssView(APIView):
         return Response('')
 
 
+class ClssAddExcel(APIView):
+    def post(self, request):
+        print('request.FILES:', request.FILES)
+        excel_stus = request.FILES.get("excel_file")
+        print(excel_stus)
+        print(excel_stus.name)
+
+        # (1) 将上传文件下载到服务器某个文件夹下[确保文件夹已经存在]
+        path = os.path.join("media", "files", excel_stus.name)
+        # print('path:', path)
+        with open(path, "wb") as f:
+            for line in excel_stus:
+                f.write(line)
+
+        # (2) 通过python操作excel表格
+        wb = load_workbook(path)
+        print(wb.sheetnames)  # 获取所有表的名字
+        work_sheet = wb.worksheets[3]  # excel 文件中，序列号第四张表（从左到右）
+
+        clss_list = []
+        for line in work_sheet.iter_rows(min_row=2):
+            # print("line--读取文件信息", line)
+            # for cell in line:
+            #     print(cell.value)
+
+            if not line[0].value:
+                break
+            # sd = StudentDetail.objects.create(tel=line[4].value, addr=line[5].value)
+            # class_id = Clas.objects.get(name=line[6].value).id
+            item_clss = Clas(name=line[0].value)
+
+            clss_list.append(item_clss)
+        Clas.objects.bulk_create(clss_list)
+        return Response('ok')
+
+
 class CourseView(APIView):
     def get(self, request):
         # 通过ORM操作获取所有分类数据
