@@ -1,12 +1,12 @@
 from django.shortcuts import render, HttpResponse, redirect
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .models import Student, StudentDetail, StuCourse, Clas
+from .models import Student, StudentDetail, StuCourse, Clas, StuCourse
 import os
 from openpyxl import load_workbook
 from django.contrib import auth
 
-from .serializers import ClssSerializer
+from .serializers import ClssSerializer, StuCourseSerializer
 
 
 class ClssView(APIView):
@@ -19,7 +19,7 @@ class ClssView(APIView):
         return Response(ser_obj.data)
 
     def post(self, request):
-        print('post', request.data)
+        print('post-data', request.data)
         name = request.data.get('name', '')
         res = Clas.objects.create(name=name)
         if res:
@@ -36,29 +36,50 @@ class ClssView(APIView):
         return Response('')
 
     def delete(self, request):
-        print('delete:', request.GET)
-        id = request.GET.get('id', '')
-        res = Clas.objects.filter(id=int(id)).delete()
+        print('delete111:', request.data)
+        del_list = request.data.get('del_list')  # 获取前台传过来的列表
+        res = Clas.objects.filter(id__in=del_list).delete()  # 用id__in 来拿取数据 紧接着删除
+
         if res:
             return Response('ok')
         return Response('')
 
 
-def index(request):
-    # （1）视图函数单独验证
-    # if request.user.username:
-    #     # 获取所有的学生数据
-    #     student_list = Student.objects.all()
-    #
-    #     return render(request, "student/index.html", {"student_list": student_list})
-    # else:
-    #     return redirect("/login")
+class CourseView(APIView):
+    def get(self, request):
+        # 通过ORM操作获取所有分类数据
+        queryset = StuCourse.objects.all()
+        # 利用序列化器去序列化我们的数据
+        ser_obj = StuCourseSerializer(queryset, many=True)  # 返回多条数据时，加上many=True
+        # 返回
+        return Response(ser_obj.data)
 
-    # （2）中间件判断
-    # 获取所有的学生数据
-    student_list = Student.objects.all()
+    def post(self, request):
+        print('post', request.POST)
+        # name = request.data.get('name', '')
+        # res = StuCourseSerializer.objects.create(name=name)
+        res = StuCourseSerializer.objects.create(**request.POST.dict())
+        if res:
+            return Response('ok')
+        return Response('')
 
-    return render(request, "student/index.html", {"student_list": student_list})
+    def put(self, request):
+        print('put:', request.POST)
+        id = request.POST.get('id', '')
+        name = request.POST.get('name', '')
+        # course_id_list = request.POST.getlist("course_id_list")
+        res = StuCourseSerializer.objects.filter(id=int(id)).update(name=name)
+        if res:
+            return Response('ok')
+        return Response('')
+
+    def delete(self, request):
+        print('delete:', request.GET)
+        id = request.GET.get('id', '')
+        res = StuCourseSerializer.objects.filter(id=int(id)).delete()
+        if res:
+            return Response('ok')
+        return Response('')
 
 
 def add_student(request):
