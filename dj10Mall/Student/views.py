@@ -1,12 +1,12 @@
 from django.shortcuts import render, HttpResponse, redirect
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .models import Student, StudentDetail, StuCourse, Clas, StuCourse
+from .models import Student, StudentDetail, CourseSchool, Clas
 import os
 from openpyxl import load_workbook
 from django.contrib import auth
 
-from .serializers import ClssSerializer, StuCourseSerializer
+from .serializers import ClssSerializer, CourseSchoolSerializer
 
 
 class ClssView(APIView):
@@ -44,25 +44,34 @@ class ClssView(APIView):
         return Response('')
 
     def delete(self, request):
-        print('delete111:', request.data)
-        del_list = request.data.get('del_list')  # 获取前台传过来的列表
-        res = Clas.objects.filter(id__in=del_list).delete()  # 用id__in 来拿取数据 紧接着删除
+        print('delete111:', request.GET)
+        id = request.GET.get('del_list', '')
+        if id:
+            res = Clas.objects.filter(id=int(id)).delete()  # 用id__in 来拿取数据 紧接着删除
+            if res:
+                return Response('ok')
 
-        if res:
-            return Response('ok')
+        # TODO 批量删除 待完善
+        # del_list = request.GET.get('del_list')  # 获取前台传过来的列表
+        # print(type del_list)
+        # if del_list:
+        #     print('del_list:', del_list)
+        #     res = Clas.objects.filter(id__in=del_list).delete()  # 用id__in 来拿取数据 紧接着删除
+        #
+        #     if res:
+        #         return Response('ok')
+
         return Response('')
 
 
 class ClssAddExcel(APIView):
     def post(self, request):
-        print('request.FILES:', request.FILES)
         excel_stus = request.FILES.get("excel_file")
-        print(excel_stus)
-        print(excel_stus.name)
+        # print(excel_stus)
+        # print(excel_stus.name)
 
         # (1) 将上传文件下载到服务器某个文件夹下[确保文件夹已经存在]
         path = os.path.join("media", "files", excel_stus.name)
-        # print('path:', path)
         with open(path, "wb") as f:
             for line in excel_stus:
                 f.write(line)
@@ -91,18 +100,26 @@ class ClssAddExcel(APIView):
 
 class CourseView(APIView):
     def get(self, request):
+        print('request.GET:', request.GET)
+        course_name = request.GET.get('course_name', '')
+        if course_name:
+            queryset = CourseSchool.objects.filter(title__contains=course_name)
+            ser_obj = CourseSchoolSerializer(queryset, many=True)  # 返回多条数据时，加上many=True
+            # 返回
+            return Response(ser_obj.data)
+
         # 通过ORM操作获取所有分类数据
-        queryset = StuCourse.objects.all()
+        queryset = CourseSchool.objects.all()
         # 利用序列化器去序列化我们的数据
-        ser_obj = StuCourseSerializer(queryset, many=True)  # 返回多条数据时，加上many=True
+        ser_obj = CourseSchoolSerializer(queryset, many=True)  # 返回多条数据时，加上many=True
         # 返回
         return Response(ser_obj.data)
 
     def post(self, request):
-        print('post', request.POST)
+        print('post-添加课程', request.POST)
+        print('添加列表:', request.POST.dict())
         # name = request.data.get('name', '')
-        # res = StuCourseSerializer.objects.create(name=name)
-        res = StuCourseSerializer.objects.create(**request.POST.dict())
+        res = CourseSchool.objects.create(**request.POST.dict())
         if res:
             return Response('ok')
         return Response('')
@@ -110,9 +127,18 @@ class CourseView(APIView):
     def put(self, request):
         print('put:', request.POST)
         id = request.POST.get('id', '')
-        name = request.POST.get('name', '')
+        title = request.POST.get('title', '')
+        credit = request.POST.get('credit', '')
+        teacher = request.POST.get('teacher', '')
+        classTime = request.POST.get('classTime', '')
         # course_id_list = request.POST.getlist("course_id_list")
-        res = StuCourseSerializer.objects.filter(id=int(id)).update(name=name)
+        res = CourseSchoolSerializer.objects.filter(id=int(id)).update(
+            title=title,
+            credit=credit,
+            teacher=teacher,
+            classTime=classTime,
+
+        )
         if res:
             return Response('ok')
         return Response('')
@@ -120,7 +146,7 @@ class CourseView(APIView):
     def delete(self, request):
         print('delete:', request.GET)
         id = request.GET.get('id', '')
-        res = StuCourseSerializer.objects.filter(id=int(id)).delete()
+        res = CourseSchoolSerializer.objects.filter(id=int(id)).delete()
         if res:
             return Response('ok')
         return Response('')
@@ -130,7 +156,7 @@ def add_student(request):
     if request.method == "GET":
 
         class_list = Clas.objects.all()
-        course_list = StuCourse.objects.all()
+        course_list = CourseSchool.objects.all()
 
         return render(request, "student/add_stu.html", {"class_list": class_list, "course_list": course_list})
 
@@ -170,7 +196,7 @@ def edit_student(request, edit_id):
     if request.method == "GET":
 
         class_list = Clas.objects.all()
-        course_list = StuCourse.objects.all()
+        course_list = CourseSchool.objects.all()
         return render(request, "student/edit_stu.html",
                       {"edit_stu": edit_stu, "class_list": class_list, "course_list": course_list})
     else:
@@ -190,7 +216,7 @@ def edit_student(request, edit_id):
 
 def elective(request):
     if request.method == "GET":
-        course_list = StuCourse.objects.all()
+        course_list = CourseSchool.objects.all()
         return render(request, "student/course.html", {"course_list": course_list})
 
     else:

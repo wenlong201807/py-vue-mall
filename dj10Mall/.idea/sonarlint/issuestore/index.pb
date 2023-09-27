@@ -43,14 +43,10 @@ H
 Shopping/payment_view.py,5/7/57c988f0185de98a47a6c8d558004af60371f749
 K
 Shopping/settlement_view.py,5/9/59861b73df0ad583c245f3a89156e50024e38aa6
-B
-Shopping/models.py,1/f/1fb4349059bc35c0d4cfa82314df47824ae8055b
 ?
 Course/admin.py,a/2/a2130786346ea6a536e9a4520ef20b66cbd48788
 F
 docs/2.解决问题.md,2/9/29dd5f989db46ce8db0218e3e38631a73c95263e
-@
-Course/models.py,b/9/b963b0dcf6f21984d9ad34b13bf564b2ddaed143
 @
 Student/admin.py,5/1/51f95ba43e1db58577056ae77bbe127585f42cf5
 ?
@@ -63,12 +59,6 @@ A
 UserInfo/tests.py,f/6/f6b1f86894cbe55b4d7773f2e18e81af54fa7ad8
 @
 UserInfo/apps.py,a/1/a1d8988826b0bea85ce3b992ef46138fb2339111
-B
-UserInfo/models.py,3/5/35fdae13229327e5461f31cbbec74e0b5545abfe
-F
-docs/1.常用命令.md,d/2/d26cdc3171f8d02ee7f81be5f597fbc1c7938368
-S
-#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 @
 Student/tests.py,b/1/b11456d9f9a1ac213ae2e64f1d870280f990167e
 @

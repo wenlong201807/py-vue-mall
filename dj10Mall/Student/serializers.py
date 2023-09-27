@@ -8,7 +8,7 @@ class ClssSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class StuCourseSerializer(serializers.ModelSerializer):
+class CourseSchoolSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.StuCourse
+        model = models.CourseSchool
         fields = "__all__"

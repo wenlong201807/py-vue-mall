@@ -1,15 +1,12 @@
 from django.db import models
+from django.contrib.auth.models import AbstractUser
+
 from Student.models import Student
 
-from django.contrib.auth.models import AbstractUser
-import os
+from utils.common import user_directory_path
 
 # 方便admin.py 中导入表格，默认的后台管理系统，录入数据使用
 __all__ = ["UserInfo"]
-
-
-def user_directory_path(instance, filename):
-    return os.path.join(instance.username, "avatars", filename)
 
 
 class UserInfo(AbstractUser):

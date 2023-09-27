@@ -29,7 +29,7 @@ export default () => {
     }
   };
   const delHandle = async (id: number) => {
-    const res = await clssCRUDApi('delete', { id: [id] });
+    const res = await clssCRUDApi('delete', { del_list: String(id) });
     console.log(444, res);
     if (res) {
       await initList();
