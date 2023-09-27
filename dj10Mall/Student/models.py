@@ -1,5 +1,5 @@
 from django.db import models
-from datetime import date
+from datetime import date, datetime
 
 from utils.common import user_directory_path
 
@@ -110,14 +110,22 @@ class CourseSchool(models.Model):
        课程学习后所得积分
        课程的执教老师【如果课程没有执教老师，则不能开课】
        上课时间
-       下课时间 # 一节课固定45分钟
+       是否是选修课，必修课，默认必修课
+       星期几上课，可多选
+       下课时间 # 一节课固定40分钟
        上课的教室【一个教室可以有多个课程，一个课程可以在多个教室 教授】【多对多】
     '''
     title = models.CharField(max_length=32, verbose_name="课程名称")
     credit = models.IntegerField(verbose_name="学分", default=3)
-    course_start_time = models.DateTimeField(auto_now_add=True, verbose_name="上课时间")
+
+    must_choices = ((1, '选修课'), (2, '必修课'))
+    course_stay_time = models.SmallIntegerField(default=2, choices=must_choices, verbose_name="选修与必修")
+
+    # week_choices = ((1, '星期一'), (2, '星期二'), (3, '星期三'), (4, '星期四'), (5, '星期五'))
+    course_week = models.CharField(default='1', max_length=32, verbose_name="星期几上课,可多选，逗号隔开")
+    course_start_time = models.TimeField(auto_now_add=True, verbose_name="开始上课时间")
     stay_choices = ((40, '40分钟'), (50, '50分钟'), (60, '60分钟'), (90, '90分钟'))
-    course_stay_time = models.SmallIntegerField(choices=stay_choices, verbose_name="课程时长")
+    course_stay_time = models.SmallIntegerField(default=40, choices=stay_choices, verbose_name="课程时长")
     course_room = models.ManyToManyField("ClassRoom",
                                          related_name="course_room_rel",
                                          db_table="db_course2room")
@@ -148,7 +156,7 @@ class Student(models.Model):
     # 一对一的关系：建立关联字段,在数据库中生成关联字段：stu_detail_id
     stu_detail = models.OneToOneField("StudentDetail", related_name="stu", on_delete=models.CASCADE, null=True)
     electives_course = models.ManyToManyField("CourseSchool",
-                                              verbose_name="选修课程",
+                                              verbose_name="只能选择选修课程",
                                               related_name="electives_course_rel",
                                               db_table="db_electives2clas")
 
@@ -177,8 +185,7 @@ class StudentDetail(models.Model):
     avatar = models.ImageField(upload_to=user_directory_path, default='/avatar/default.png', null=True, blank=True,
                                verbose_name='默认图片')
     family_addr = models.CharField(max_length=32)
-    birthday = models.DateField()
-    age = models.SmallIntegerField(verbose_name="年龄", default=18)  # 年龄
+    birthday = models.DateTimeField(default=datetime.now())
     father_name = models.CharField(max_length=32, verbose_name="父亲名字", default='保密')
     mother_name = models.CharField(max_length=32, verbose_name="母亲名字", default='保密')
 

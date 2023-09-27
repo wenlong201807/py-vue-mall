@@ -79,6 +79,8 @@ class ClssAddExcel(APIView):
         # (2) 通过python操作excel表格
         wb = load_workbook(path)
         print(wb.sheetnames)  # 获取所有表的名字
+
+
         work_sheet = wb.worksheets[3]  # excel 文件中，序列号第四张表（从左到右）
 
         clss_list = []
