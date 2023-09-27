@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { message, Space, Table } from 'antd';
 import { clssCRUDApi } from '@/services/student';
-import UploadClss from './com/UploadClss';
+import BatchUpload from '@/components/BatchUpload';
 
 type DataSourceType = {
   id: React.Key;
@@ -86,7 +86,7 @@ export default () => {
   return (
     <>
       <div>
-        <UploadClss initList={initList} />
+        <BatchUpload batchAddUrl={''} initList={initList} />
       </div>
       <Table columns={columns} dataSource={dataSource} />
     </>

@@ -26,8 +26,6 @@ E
 >
 Course/apps.py,1/4/14ecc1631c0991e5b3b89bb1618e3534adba6d93
 D
-Course/video_view.py,d/c/dc6e4c5238fcd96dc626ac8dffc9f48fe118fedc
-D
 Login/serializers.py,f/5/f55bf2a41db45cabfdb401a4ba409e37c166b4c4
 >
 Login/views.py,e/0/e0c7e1b8e6056bee9bb8328135228e1b770314b3
@@ -65,5 +63,3 @@ A
 Shopping/urls.py,1/e/1e7222cf3944a4e1db53fda5066e3cece4e142bf
 F
 utils/base_response.py,1/e/1e3a342400898ba7beb3ae2a8e7811cd3a65fe9a
-?
-Course/views.py,d/b/dbfe82b096e62b6ae7c2b44ed6a7bfeef7e64404

@@ -22,6 +22,43 @@
     component: './Welcome',
   },
   {
+    // 校级看板
+    path: '/SchoolBase',
+    name: 'adminSchoolBase',
+    icon: 'crown',
+    access: 'canAdmin',
+    routes: [
+      {
+        path: '/SchoolBase/ClassRoom',
+        name: 'ClassRoom',
+        icon: 'smile',
+        component: './SchoolBase/ClassRoom/ClassRoom',
+      },
+      {
+        path: '/SchoolBase/Teacher',
+        name: 'Teacher',
+        icon: 'smile',
+        component: './SchoolBase/Teacher/Teacher',
+      },
+      {
+        path: '/SchoolBase/Student/list',
+        name: 'StuList',
+        icon: 'smile',
+        component: './SchoolBase/Student/Student',
+      },
+      {
+        path: '/SchoolBase/Student/detail',
+        name: 'StuDetail',
+        icon: 'smile',
+        component: './SchoolBase/Student/StuDetail',
+      },
+      {
+        component: './404',
+      },
+    ],
+  },
+  {
+    // 学生看板
     path: '/Student',
     name: 'adminStu',
     icon: 'crown',

@@ -1,12 +1,12 @@
 from django.shortcuts import render, HttpResponse, redirect
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from .models import Student, StudentDetail, CourseSchool, Clas
+from Student.models import Student, StudentDetail, CourseSchool, Clas
 import os
 from openpyxl import load_workbook
 from django.contrib import auth
 
-from .serializers import ClssSerializer, CourseSchoolSerializer
+from Student.serializers.teacherSerializer import ClssSerializer, CourseSchoolSerializer
 
 
 class ClssView(APIView):

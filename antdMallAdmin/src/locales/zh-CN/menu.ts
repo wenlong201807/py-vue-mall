@@ -5,6 +5,12 @@ export default {
   'menu.admin': '管理页',
   'menu.admin.sub-page': '二级管理页',
 
+  'menu.adminSchoolBase': '校级系统管理',
+  'menu.adminSchoolBase.ClassRoom': '全校教室管理',
+  'menu.adminSchoolBase.Teacher': '全校教师管理',
+  'menu.adminSchoolBase.StuList': '全校学生列表管理',
+  'menu.adminSchoolBase.StuDetail': '全校学生详情管理',
+
   'menu.adminStu': '学生系统管理',
   'menu.adminStu.Clss': '班级管理',
   'menu.adminStu.Teacher': '教师管理',

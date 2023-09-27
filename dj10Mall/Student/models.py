@@ -6,6 +6,11 @@ from utils.common import user_directory_path
 # 方便admin.py 中导入表格，默认的后台管理系统，录入数据使用
 __all__ = ["SchoolCategory", "Clas", "ClassRoom", "Teacher", "CourseSchool", "Student", "StudentDetail"]
 
+sex_choices = (
+        (0, "女"),
+        (1, "男"),
+        (2, "保密"),
+    )
 
 class SchoolCategory(models.Model):
     """院系表"""
@@ -89,7 +94,7 @@ class Teacher(models.Model):
     '''
     name = models.CharField(max_length=32, verbose_name="老师名字")
     section_type_choices = ((0, '男'), (1, '女'), (2, '保密'))
-    sex = models.SmallIntegerField(default=2, choices=section_type_choices, verbose_name="老师性别")
+    sex = models.SmallIntegerField(default=2, choices=sex_choices, verbose_name="老师性别")
     mobile = models.CharField(max_length=12, verbose_name="老师的手机号")
     avatar = models.ImageField(upload_to=user_directory_path, default="/avatar/default.png")
     brief = models.TextField(max_length=1024, verbose_name="讲师介绍")
@@ -188,12 +193,6 @@ class StudentDetail(models.Model):
     birthday = models.DateTimeField(default=datetime.now())
     father_name = models.CharField(max_length=32, verbose_name="父亲名字", default='保密')
     mother_name = models.CharField(max_length=32, verbose_name="母亲名字", default='保密')
-
-    sex_choices = (
-        (0, "女"),
-        (1, "男"),
-        (2, "保密"),
-    )
     sex = models.SmallIntegerField(choices=sex_choices)
 
     def __str__(self):
