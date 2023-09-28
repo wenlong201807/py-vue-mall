@@ -46,12 +46,12 @@
         icon: 'smile',
         component: './SchoolBase/Student/Student',
       },
-      {
-        path: '/SchoolBase/Student/detail',
-        name: 'StuDetail',
-        icon: 'smile',
-        component: './SchoolBase/Student/StuDetail',
-      },
+      // {
+      //   path: '/SchoolBase/Student/detail',
+      //   name: 'StuDetail',
+      //   icon: 'smile',
+      //   component: './SchoolBase/Student/StuDetail',
+      // },
       {
         component: './404',
       },

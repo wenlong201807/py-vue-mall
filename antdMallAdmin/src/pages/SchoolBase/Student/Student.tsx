@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Table } from 'antd';
+import { Table, Tooltip } from 'antd';
 import { studentCRUDApi } from '@/services/index';
 import BatchUpload from '@/components/BatchUpload';
 import { sexSet } from '@/utils';
@@ -48,11 +48,27 @@ export default () => {
       dataIndex: 'name',
       width: 100,
       fixed: 'left',
+      ellipsis: {
+        showTitle: false,
+      },
+      render: (val: string) => (
+        <Tooltip placement="topLeft" title={val}>
+          {val}
+        </Tooltip>
+      ),
     },
     {
       title: '昵称',
       dataIndex: 'nickname',
       width: 100,
+      ellipsis: {
+        showTitle: false,
+      },
+      render: (val: string) => (
+        <Tooltip placement="topLeft" title={val}>
+          {val}
+        </Tooltip>
+      ),
     },
     {
       title: '手机号',
@@ -71,7 +87,7 @@ export default () => {
       dataIndex: 'avatar',
       key: 'avatar',
       render: (key: string) => (
-        <img src={`http://localhost:8000${key}`} width="30px" height="30px" />
+        <img src={`http://localhost:8000${key}`} width="20px" height="20px" />
       ),
       width: 100,
     },
@@ -80,12 +96,20 @@ export default () => {
       dataIndex: 'family_addr',
       key: 'family_addr',
       width: 200,
+      ellipsis: {
+        showTitle: false,
+      },
+      render: (address: string) => (
+        <Tooltip placement="topLeft" title={address}>
+          {address}
+        </Tooltip>
+      ),
     },
     {
-      title: '生日',
+      title: '出生日期',
       dataIndex: 'birthday',
       key: 'birthday',
-      width: 150,
+      width: 200,
     },
     {
       title: '父亲名字',
@@ -110,9 +134,9 @@ export default () => {
 
   return (
     <>
-      <div>
+      {/* <div>
         <BatchUpload batchAddUrl="student/schoolBatchAdd?category=3" initList={initList} />
-      </div>
+      </div> */}
       <Table bordered columns={columns} dataSource={dataSource} scroll={{ x: 1000 }} />
     </>
   );

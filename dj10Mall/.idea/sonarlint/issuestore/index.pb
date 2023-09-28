@@ -31,8 +31,6 @@ D
 Login/views.py,e/0/e0c7e1b8e6056bee9bb8328135228e1b770314b3
 >
 Login/admin.py,3/2/32ac471137206b5973048393632aa0fdcb15af33
-?
-Login/models.py,8/0/802926188f689eaea5c02daad94ed0f0e9290f21
 @
 utils/my_auth.py,4/1/41a0746f42af904587bb682cd6ae5cf96574a755
 E

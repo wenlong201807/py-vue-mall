@@ -278,20 +278,87 @@ class SchoolBachExcel(APIView):
         wb = load_workbook(path)
         print(wb.sheetnames)  # 获取所有表的名字
 
-        work_sheet = wb.worksheets[3]  # excel 文件中，序列号第四张表（从左到右）
+        # 0 db_class_room
+        # 1 db_teacher
+        # 2 db_stu_detail
+        # work_sheet = wb.worksheets[0]  # excel 文件中，序列号第四张表（从左到右）
+        # class_room_list = []
+        # for line in work_sheet.iter_rows(min_row=3):
+        #     # print("line--读取文件信息", line)
+        #     # for cell in line:
+        #     #     print(cell.value)
+        #     if not line[0].value:
+        #         break
+        #     # print('capacity_num:', line[2].value)
+        #     item_class_room = ClassRoom(
+        #         name=line[0].value,
+        #         room_addr=line[1].value,
+        #         capacity_num=line[2].value,
+        #         isMedia_room=line[3].value,
+        #     )
 
-        clss_list = []
-        for line in work_sheet.iter_rows(min_row=2):
-            # print("line--读取文件信息", line)
-            # for cell in line:
-            #     print(cell.value)
+        #     class_room_list.append(item_class_room)
+        # ClassRoom.objects.bulk_create(class_room_list)
 
+        # 0 db_class_room
+        # 1 db_teacher
+        # 2 db_stu_detail
+        work_sheet_tea = wb.worksheets[1]  # excel 文件中，序列号第四张表（从左到右）
+        tea_list = []
+        for line in work_sheet_tea.iter_rows(min_row=3):  # 第一行 row = 1
             if not line[0].value:
                 break
-            # sd = StudentDetail.objects.create(tel=line[4].value, addr=line[5].value)
-            # class_id = Clas.objects.get(name=line[6].value).id
-            item_clss = Teacher(name=line[0].value)
 
-            clss_list.append(item_clss)
-        Teacher.objects.bulk_create(clss_list)
+            item_tea = Teacher(
+                name=line[0].value,
+                sex=line[1].value,
+                mobile=line[2].value,
+                # avatar=line[3].value,
+                brief=line[4].value,
+            )
+
+        #     tea_list.append(item_tea)
+        # Teacher.objects.bulk_create(tea_list)
+
+        # 0 db_class_room
+        # 1 db_teacher
+        # 2 db_stu_detail
+        # work_sheet_stu_detail = wb.worksheets[2]  # excel 文件中，序列号第四张表（从左到右）
+        # stu_detail_list = []
+        # for line in work_sheet_stu_detail.iter_rows(min_row=3):
+        #     for cell in line:
+        #         print(cell.value)
+        #     if not line[0].value:
+        #         break
+        #     print('birthday', line[3].value)
+        #     item_stu_detail = StudentDetail(
+        #         nickname=line[0].value,
+        #         # avatar=line[1].value,
+        #         family_addr=line[2].value,
+        #         birthday=line[3].value,
+        #         father_name=line[4].value,
+        #         mother_name=line[5].value,
+        #         sex=int(line[6].value),
+        #     )
+        #
+        #     stu_detail_list.append(item_stu_detail)
+        # StudentDetail.objects.bulk_create(stu_detail_list)
+
+        work_sheet_stu = wb.worksheets[3]  # excel 文件中，序列号第四张表（从左到右）
+        stu_list = []
+        for line in work_sheet_stu.iter_rows(min_row=3):
+            # for cell in line:
+            #     print(cell.value)
+            if not line[0].value:
+                break
+            print('name', line[0].value)
+            item_stu = Student(
+                name=line[0].value,
+                mobile=line[1].value,
+                stu_detail_id=line[2].value
+            )
+
+            stu_list.append(item_stu)
+        Student.objects.bulk_create(stu_list)
+
         return Response('ok')

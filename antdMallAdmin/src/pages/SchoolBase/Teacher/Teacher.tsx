@@ -76,9 +76,9 @@ export default () => {
 
   return (
     <>
-      <div>
+      {/* <div>
         <BatchUpload batchAddUrl="student/schoolBatchAdd?category=1" initList={initList} />
-      </div>
+      </div> */}
       <Table bordered columns={columns} dataSource={dataSource} />
     </>
   );

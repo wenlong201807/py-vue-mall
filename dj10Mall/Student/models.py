@@ -70,7 +70,7 @@ class ClassRoom(models.Model):
     '''
     name = models.CharField(max_length=32, verbose_name="教室名称")
     room_addr = models.CharField(max_length=32, verbose_name="教室地址")
-    capacity_num = models.SmallIntegerField(verbose_name="可以容纳人数")
+    capacity_num = models.IntegerField(verbose_name="可以容纳人数")
     isMedia_room = models.BooleanField(default=False, verbose_name="是否是多媒体教室")
 
     def __str__(self):
