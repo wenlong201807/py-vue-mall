@@ -1,7 +1,9 @@
 from django.urls import re_path as url, path
 from meiduo_admin.views.usersView import MyTokenObtainPairView
+from rest_framework.routers import DefaultRouter
 from meiduo_admin.home import home_views
 from meiduo_admin.user import user_views
+from meiduo_admin.views import specs, options
 
 urlpatterns = [
     # 后台系统的 登录 参考 https://www.jianshu.com/p/7ebf659c57a3
@@ -19,4 +21,13 @@ urlpatterns = [
 
     # 用户管理
     url(r'^users/$', user_views.UserView.as_view()),
+
+    # ------------规格路由表-----------两种方式都可以实现
+    url(r'^goods/simple/$', specs.SpecsView.as_view({'get': 'simple'})),
+    url(r'^goods/specs/simple/$', options.OptionSimple.as_view()),
 ]
+
+# ----------规格表路由------
+router = DefaultRouter()
+router.register('goods/specs', specs.SpecsView, basename='specs')
+urlpatterns += router.urls
