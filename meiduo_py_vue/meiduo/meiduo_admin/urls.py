@@ -5,6 +5,8 @@ from meiduo_admin.home import home_views
 from meiduo_admin.user import user_views
 from meiduo_admin.views import specs, options
 from meiduo_admin.views import skus, spus
+from meiduo_admin.views import permissions, group, admin
+
 # from meiduo_admin.views import orders
 
 # from meiduo_admin.views import images
@@ -40,6 +42,13 @@ urlpatterns = [
     url(r'^goods/channel/categories/$', spus.SPUGoodsView.as_view({'get': 'channel'})),
     url(r'^goods/channel/categories/(?P<pk>\d+)/$', spus.SPUGoodsView.as_view({'get': 'channels'})),
 
+    # --------权限路由--------
+    url(r'^permission/content_types/$', permissions.PermissionsView.as_view({'get': 'content_type'})),
+    # --------分组路由--------
+    url(r'^permission/simple/$', group.GroupView.as_view({'get': 'simple'})),
+    # --------管理员路由--------
+    url(r'^permission/groups/simple/$', admin.AdminView.as_view({'get': 'simple'})),
+
 ]
 
 # ----------规格表路由------
@@ -72,3 +81,18 @@ urlpatterns += router.urls
 # router = DefaultRouter()
 # router.register('orders', orders.OrderView, basename='orders')
 # urlpatterns += router.urls
+
+# --------权限路由--------
+router = DefaultRouter()
+router.register('permission/perms', permissions.PermissionsView, basename='perms')
+urlpatterns += router.urls
+
+# --------分组路由--------
+router = DefaultRouter()
+router.register('permission/groups', group.GroupView, basename='groups')
+urlpatterns += router.urls
+
+# --------管理员路由--------
+router = DefaultRouter()
+router.register('permission/admins', admin.AdminView, basename='admin')
+urlpatterns += router.urls
