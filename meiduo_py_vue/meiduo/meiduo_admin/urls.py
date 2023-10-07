@@ -1,6 +1,7 @@
 from django.urls import re_path as url, path
 from meiduo_admin.views.usersView import MyTokenObtainPairView
 from meiduo_admin.home import home_views
+from meiduo_admin.user import user_views
 
 urlpatterns = [
     # 后台系统的 登录 参考 https://www.jianshu.com/p/7ebf659c57a3
@@ -15,4 +16,7 @@ urlpatterns = [
     url(r'^statistical/day_orders/$', home_views.UserDayOrdersView.as_view()),
     url(r'^statistical/month_increment/$', home_views.UserMonthIncrementView.as_view()),
     url(r'^statistical/goods_day_views/$', home_views.GoodCategoryDayView.as_view()),
+
+    # 用户管理
+    url(r'^users/$', user_views.UserView.as_view()),
 ]
