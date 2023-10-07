@@ -5,6 +5,7 @@ from meiduo_admin.home import home_views
 from meiduo_admin.user import user_views
 from meiduo_admin.views import specs, options
 from meiduo_admin.views import skus, spus
+# from meiduo_admin.views import orders
 
 # from meiduo_admin.views import images
 
@@ -61,3 +62,13 @@ router = DefaultRouter()
 router.register('goods', spus.SPUGoodsView, basename='spus')
 # print(router.urls)
 urlpatterns += router.urls
+
+# --------商品管理-规格选项管理 路由--------
+router = DefaultRouter()
+router.register('specs/options', options.OptionsView, basename='options')
+urlpatterns += router.urls
+
+# --------订单路由--------[有问题，缺少tb_order_goods表]
+# router = DefaultRouter()
+# router.register('orders', orders.OrderView, basename='orders')
+# urlpatterns += router.urls
