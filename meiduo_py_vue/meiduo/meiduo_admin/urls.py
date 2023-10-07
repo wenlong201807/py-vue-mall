@@ -55,3 +55,9 @@ urlpatterns += router.urls
 router = DefaultRouter()
 router.register("skus", skus.SKUVIew, basename="skus")
 urlpatterns += router.urls
+
+# --------spus路由--------
+router = DefaultRouter()
+router.register('goods', spus.SPUGoodsView, basename='spus')
+# print(router.urls)
+urlpatterns += router.urls
