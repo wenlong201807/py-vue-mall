@@ -1,0 +1,539 @@
+INFO 2023-10-07 03:07:50,106 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:08:55,054 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:09:22,433 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 03:09:22,570 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:12:27,992 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/_distutils_hack/__init__.py changed, reloading.
+INFO 2023-10-07 03:12:28,191 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:13:33,751 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:14:34,771 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:17:06,659 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:19:23,852 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/__init__.py changed, reloading.
+INFO 2023-10-07 03:19:24,075 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:21:32,402 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/__init__.py changed, reloading.
+INFO 2023-10-07 03:21:32,607 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:23:07,999 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/__init__.py changed, reloading.
+INFO 2023-10-07 03:23:08,263 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:23:11,599 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:25:48,927 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:27:38,272 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:29:51,428 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:30:55,698 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:33:32,679 autoreload 668 Watching for file changes with StatReloader
+INFO 2023-10-07 03:44:03,702 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/conf/urls/__init__.py changed, reloading.
+INFO 2023-10-07 03:44:54,330 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 03:45:55,714 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 03:47:34,548 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 03:48:14,044 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 03:49:38,176 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 03:49:38,388 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 03:55:23,580 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-07 03:55:28,670 log 241 Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/asgiref/local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x10608b160> object has no attribute 'session'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/contrib/sessions/middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/contrib/sessions/backends/cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'session' doesn't exist.
+ERROR 2023-10-07 03:55:28,671 basehttp 187 "GET / HTTP/1.1" 500 82896
+ERROR 2023-10-07 03:55:35,875 log 241 Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/asgiref/local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x10608b160> object has no attribute 'session'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/contrib/sessions/middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/contrib/sessions/backends/cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'session' doesn't exist.
+ERROR 2023-10-07 03:55:35,876 basehttp 187 "GET /admin/ HTTP/1.1" 500 82917
+INFO 2023-10-07 03:56:43,884 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/urls.py changed, reloading.
+INFO 2023-10-07 03:56:44,121 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 03:58:07,066 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 03:58:07,323 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 03:58:29,208 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 05:39:47,145 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 05:39:47,447 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 05:43:13,428 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 05:49:22,328 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 05:49:22,594 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 05:52:16,943 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 05:52:17,243 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 05:53:55,727 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-07 05:54:54,245 log 241 Internal Server Error: /meiduo_admin/authorizations/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/connection.py", line 58, in __getitem__
+    return getattr(self._connections, alias)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/asgiref/local.py", line 105, in __getattr__
+    raise AttributeError(f"{self!r} object has no attribute {key!r}")
+AttributeError: <asgiref.local.Local object at 0x1039db160> object has no attribute 'session'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 135, in __call__
+    response = self.process_request(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/contrib/sessions/middleware.py", line 20, in process_request
+    request.session = self.SessionStore(session_key)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/contrib/sessions/backends/cache.py", line 16, in __init__
+    self._cache = caches[settings.SESSION_CACHE_ALIAS]
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/connection.py", line 61, in __getitem__
+    raise self.exception_class(f"The connection '{alias}' doesn't exist.")
+django.core.cache.backends.base.InvalidCacheBackendError: The connection 'session' doesn't exist.
+ERROR 2023-10-07 05:54:54,246 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 500 80926
+INFO 2023-10-07 05:57:00,137 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 05:57:00,395 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:00:46,309 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:07:06,190 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:13:16,344 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 06:13:16,652 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:14:06,006 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 06:14:06,269 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:15:37,246 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-07 06:18:28,107 log 241 Method Not Allowed: /meiduo_admin/api/token/
+WARNING 2023-10-07 06:18:28,108 basehttp 187 "GET /meiduo_admin/api/token/ HTTP/1.1" 405 40
+INFO 2023-10-07 06:18:34,735 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 483
+INFO 2023-10-07 06:26:00,401 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 06:26:00,707 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:33:05,864 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-07 06:33:11,277 log 241 Internal Server Error: /meiduo_admin/api/token/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 29, in get_serializer_class
+    return import_string(self._serializer_class)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'meiduo.meiduo_admin'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 41, in post
+    serializer = self.get_serializer(data=request.data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 32, in get_serializer_class
+    raise ImportError(msg)
+ImportError: Could not import serializer 'meiduo.meiduo_admin.serializers.MyTokenObtainPairSerializer'
+ERROR 2023-10-07 06:33:11,277 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 500 128792
+INFO 2023-10-07 06:33:44,179 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 06:33:44,449 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:39:48,960 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-07 06:39:52,713 log 241 Internal Server Error: /meiduo_admin/api/token/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 29, in get_serializer_class
+    return import_string(self._serializer_class)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/module_loading.py", line 30, in import_string
+    return cached_import(module_path, class_name)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/utils/module_loading.py", line 15, in cached_import
+    module = import_module(module_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'meiduo.meiduo_admin'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 41, in post
+    serializer = self.get_serializer(data=request.data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 108, in get_serializer
+    serializer_class = self.get_serializer_class()
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 32, in get_serializer_class
+    raise ImportError(msg)
+ImportError: Could not import serializer 'meiduo.meiduo_admin.serializers.customJwtLogin.MyTokenObtainPairSerializer'
+ERROR 2023-10-07 06:39:52,714 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 500 135768
+INFO 2023-10-07 06:40:46,809 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 06:40:47,089 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-07 06:40:50,636 log 241 Unauthorized: /meiduo_admin/api/token/
+WARNING 2023-10-07 06:40:50,636 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 401 63
+INFO 2023-10-07 06:42:52,056 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 483
+INFO 2023-10-07 06:46:39,691 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-07 06:46:42,941 log 241 Internal Server Error: /meiduo_admin/api/token/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 75, in validate
+    refresh = self.get_token(self.user)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py", line 11, in get_token
+    token['name'] = user.name
+AttributeError: 'User' object has no attribute 'name'
+ERROR 2023-10-07 06:46:42,943 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 500 109647
+INFO 2023-10-07 06:47:36,348 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py changed, reloading.
+INFO 2023-10-07 06:47:36,598 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:47:39,266 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 513
+INFO 2023-10-07 06:48:49,005 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py changed, reloading.
+INFO 2023-10-07 06:48:49,327 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:48:50,085 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 513
+INFO 2023-10-07 06:52:06,813 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 06:52:07,102 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:52:08,063 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 483
+INFO 2023-10-07 06:52:18,679 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 06:52:18,932 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:52:20,767 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 513
+INFO 2023-10-07 06:55:46,156 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 513
+INFO 2023-10-07 06:55:57,557 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:58:30,808 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py changed, reloading.
+INFO 2023-10-07 06:58:31,566 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:58:35,863 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:59:27,855 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py changed, reloading.
+INFO 2023-10-07 06:59:28,581 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 06:59:57,095 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-07 07:00:00,936 log 241 Internal Server Error: /meiduo_admin/api/token/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 78, in validate
+    data["access"] = str(refresh.access_token)
+AttributeError: 'dict' object has no attribute 'access_token'
+ERROR 2023-10-07 07:00:00,937 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 500 106850
+INFO 2023-10-07 07:00:36,438 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py changed, reloading.
+INFO 2023-10-07 07:00:36,667 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:00:46,661 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-07 07:00:49,297 log 241 Internal Server Error: /meiduo_admin/api/token/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 78, in validate
+    data["access"] = str(refresh.access_token)
+AttributeError: 'dict' object has no attribute 'access_token'
+ERROR 2023-10-07 07:00:49,298 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 500 106804
+INFO 2023-10-07 07:03:06,972 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py changed, reloading.
+INFO 2023-10-07 07:03:07,224 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:03:08,085 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 483
+INFO 2023-10-07 07:04:03,957 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py changed, reloading.
+INFO 2023-10-07 07:04:04,246 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-07 07:04:05,586 log 241 Internal Server Error: /meiduo_admin/api/token/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 75, in validate
+    refresh = self.get_token(self.user)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py", line 11, in get_token
+    print(77, token.refresh)
+AttributeError: 'RefreshToken' object has no attribute 'refresh'
+ERROR 2023-10-07 07:04:05,587 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 500 110156
+INFO 2023-10-07 07:04:27,075 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py changed, reloading.
+INFO 2023-10-07 07:04:27,319 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-07 07:04:28,729 log 241 Internal Server Error: /meiduo_admin/api/token/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 75, in validate
+    refresh = self.get_token(self.user)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py", line 12, in get_token
+    print(66, token.access)
+AttributeError: 'RefreshToken' object has no attribute 'access'
+ERROR 2023-10-07 07:04:28,730 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 500 110169
+INFO 2023-10-07 07:04:35,792 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py changed, reloading.
+INFO 2023-10-07 07:04:36,012 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:04:36,435 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 483
+INFO 2023-10-07 07:05:42,146 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/users/serializers.py changed, reloading.
+INFO 2023-10-07 07:05:42,486 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:05:43,715 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 483
+INFO 2023-10-07 07:16:10,669 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 07:16:11,027 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:25:37,424 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 07:25:37,734 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-07 07:25:46,550 log 241 Internal Server Error: /meiduo_admin/api/token/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 429, in run_validation
+    value = self.validate(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 75, in validate
+    refresh = self.get_token(self.user)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/customJwtLogin.py", line 11, in get_token
+    token['name'] = user.name
+AttributeError: 'User' object has no attribute 'name'
+ERROR 2023-10-07 07:25:46,551 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 500 109898
+INFO 2023-10-07 07:26:12,016 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/customJwtLogin.py changed, reloading.
+INFO 2023-10-07 07:26:12,326 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:26:13,387 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 523
+INFO 2023-10-07 07:29:33,572 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 07:29:33,871 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:29:35,050 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 523
+INFO 2023-10-07 07:31:20,950 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/customJwtLogin.py changed, reloading.
+INFO 2023-10-07 07:31:21,265 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:31:23,853 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 554
+INFO 2023-10-07 07:31:35,911 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/customJwtLogin.py changed, reloading.
+INFO 2023-10-07 07:31:36,175 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:32:02,066 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/customJwtLogin.py changed, reloading.
+INFO 2023-10-07 07:32:02,287 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:32:02,437 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 554
+INFO 2023-10-07 07:33:47,335 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/customJwtLogin.py changed, reloading.
+INFO 2023-10-07 07:33:47,638 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:34:45,343 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/customJwtLogin.py changed, reloading.
+INFO 2023-10-07 07:34:45,718 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:35:04,403 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/customJwtLogin.py changed, reloading.
+INFO 2023-10-07 07:35:04,733 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:35:04,983 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 200 514
+INFO 2023-10-07 07:35:45,928 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-07 07:35:46,205 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:37:11,767 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 07:37:12,089 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:37:15,289 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+INFO 2023-10-07 07:37:51,453 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 07:37:51,746 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:38:14,613 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 07:38:14,913 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:40:43,942 basehttp 187 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2023-10-07 07:40:44,066 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+INFO 2023-10-07 07:40:44,097 basehttp 187 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2023-10-07 07:40:44,098 basehttp 187 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2023-10-07 07:40:44,100 basehttp 187 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2023-10-07 07:40:44,100 basehttp 187 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2023-10-07 07:40:44,101 basehttp 187 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2023-10-07 07:40:44,103 basehttp 187 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2023-10-07 07:40:44,103 basehttp 187 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2023-10-07 07:40:44,104 basehttp 187 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+WARNING 2023-10-07 07:40:44,122 log 241 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 07:40:44,122 log 241 Not Found: /meiduo_admin/statistical/total_count/
+WARNING 2023-10-07 07:40:44,122 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 07:40:44,123 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 07:40:44,123 log 241 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 07:40:44,123 log 241 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 07:40:44,123 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 2300
+WARNING 2023-10-07 07:40:44,124 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 404 2288
+WARNING 2023-10-07 07:40:44,124 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2285
+WARNING 2023-10-07 07:40:44,124 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2285
+WARNING 2023-10-07 07:40:44,124 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 2300
+WARNING 2023-10-07 07:40:44,125 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 2294
+WARNING 2023-10-07 07:40:44,130 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 07:40:44,131 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 07:40:44,131 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2285
+WARNING 2023-10-07 07:40:44,131 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2285
+INFO 2023-10-07 07:42:20,514 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+WARNING 2023-10-07 07:42:20,546 log 241 Not Found: /meiduo_admin/statistical/total_count/
+WARNING 2023-10-07 07:42:20,546 log 241 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 07:42:20,547 log 241 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 07:42:20,547 log 241 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 07:42:20,547 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 404 2288
+WARNING 2023-10-07 07:42:20,547 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 2300
+WARNING 2023-10-07 07:42:20,547 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 07:42:20,548 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 07:42:20,548 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 2294
+WARNING 2023-10-07 07:42:20,548 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 2300
+WARNING 2023-10-07 07:42:20,549 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2285
+WARNING 2023-10-07 07:42:20,549 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2285
+WARNING 2023-10-07 07:42:20,553 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 07:42:20,553 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 07:42:20,554 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2285
+WARNING 2023-10-07 07:42:20,554 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2285
+INFO 2023-10-07 07:43:09,216 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+WARNING 2023-10-07 07:43:09,243 log 241 Not Found: /meiduo_admin/statistical/total_count/
+WARNING 2023-10-07 07:43:09,243 log 241 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 07:43:09,244 log 241 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 07:43:09,244 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 07:43:09,244 log 241 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 07:43:09,244 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 404 2288
+WARNING 2023-10-07 07:43:09,245 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 2300
+WARNING 2023-10-07 07:43:09,245 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 2300
+WARNING 2023-10-07 07:43:09,245 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2285
+WARNING 2023-10-07 07:43:09,245 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 07:43:09,245 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 2294
+WARNING 2023-10-07 07:43:09,246 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2285
+WARNING 2023-10-07 07:43:09,250 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 07:43:09,250 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 07:43:09,250 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2285
+WARNING 2023-10-07 07:43:09,250 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2285
+INFO 2023-10-07 07:43:30,598 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+INFO 2023-10-07 07:45:51,866 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514

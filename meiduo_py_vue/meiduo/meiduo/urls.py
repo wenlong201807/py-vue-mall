@@ -16,7 +16,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+#
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+# ]
+
+from django.conf.urls import include
+from django.urls import re_path as url
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
+    url('^meiduo_admin/', include('meiduo_admin.urls')),
+    # url(r'^', include(('users.urls', 'users'), namespace='users')),  # 增加命名空间
+    # url(r'^', include(('contents.urls', 'contents'), namespace='contents')),
+    # url('^', include('verifycations.urls')),  # 校验模块
+    # url('^', include('oauth.urls')),  # 第三方授权模块
 ]
