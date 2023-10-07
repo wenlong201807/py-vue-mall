@@ -537,3 +537,195 @@ WARNING 2023-10-07 07:43:09,250 basehttp 187 "GET /meiduo_admin/statistical/day_
 WARNING 2023-10-07 07:43:09,250 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2285
 INFO 2023-10-07 07:43:30,598 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
 INFO 2023-10-07 07:45:51,866 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+INFO 2023-10-07 07:56:20,789 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 07:56:21,165 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:56:46,017 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 07:56:46,330 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 07:56:54,679 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+WARNING 2023-10-07 07:56:54,703 log 241 Forbidden: /meiduo_admin/statistical/total_count/
+WARNING 2023-10-07 07:56:54,704 log 241 Forbidden: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 07:56:54,705 log 241 Forbidden: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 07:56:54,705 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 403 58
+WARNING 2023-10-07 07:56:54,706 log 241 Forbidden: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 07:56:54,707 log 241 Forbidden: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 07:56:54,708 log 241 Forbidden: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 07:56:54,708 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 403 58
+WARNING 2023-10-07 07:56:54,708 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 403 58
+WARNING 2023-10-07 07:56:54,709 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 403 58
+WARNING 2023-10-07 07:56:54,709 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 403 58
+WARNING 2023-10-07 07:56:54,709 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 403 58
+WARNING 2023-10-07 07:56:54,711 log 241 Forbidden: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 07:56:54,712 log 241 Forbidden: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 07:56:54,712 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 403 58
+WARNING 2023-10-07 07:56:54,712 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:01:01,474 log 241 Not Found: /meiduo_admin/api/statistical/total_count/
+WARNING 2023-10-07 08:01:01,475 basehttp 187 "GET /meiduo_admin/api/statistical/total_count/ HTTP/1.1" 404 3430
+INFO 2023-10-07 08:03:38,868 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/home/home_views.py changed, reloading.
+INFO 2023-10-07 08:03:39,185 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-07 08:03:39,796 log 241 Not Found: /meiduo_admin/api/statistical/total_count/
+WARNING 2023-10-07 08:03:39,796 basehttp 187 "GET /meiduo_admin/api/statistical/total_count/ HTTP/1.1" 404 3430
+INFO 2023-10-07 08:14:23,757 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/home/home_views.py changed, reloading.
+INFO 2023-10-07 08:14:24,111 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 08:14:51,006 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/home/home_views.py changed, reloading.
+INFO 2023-10-07 08:14:51,326 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 08:17:49,649 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-07 08:17:57,446 log 241 Not Found: /meiduo_admin/api/token/
+WARNING 2023-10-07 08:17:57,447 basehttp 187 "POST /meiduo_admin/api/token/ HTTP/1.1" 404 3377
+INFO 2023-10-07 08:18:11,032 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+WARNING 2023-10-07 08:18:53,200 log 241 Not Found: /meiduo_admin/api/statistical/total_count/
+WARNING 2023-10-07 08:18:53,200 basehttp 187 "GET /meiduo_admin/api/statistical/total_count/ HTTP/1.1" 404 3430
+INFO 2023-10-07 08:19:17,183 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 08:19:45,705 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 08:20:00,491 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+WARNING 2023-10-07 08:20:00,517 log 241 Forbidden: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 08:20:00,518 log 241 Forbidden: /meiduo_admin/statistical/total_count/
+WARNING 2023-10-07 08:20:00,520 log 241 Forbidden: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:20:00,522 log 241 Forbidden: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:20:00,522 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:00,523 log 241 Forbidden: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 08:20:00,523 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:00,525 log 241 Forbidden: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 08:20:00,525 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:00,526 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:00,526 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:00,527 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:00,528 log 241 Forbidden: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:20:00,529 log 241 Forbidden: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:20:00,530 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:00,530 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 403 58
+INFO 2023-10-07 08:20:45,064 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+WARNING 2023-10-07 08:20:45,081 log 241 Forbidden: /meiduo_admin/statistical/total_count/
+WARNING 2023-10-07 08:20:45,083 log 241 Forbidden: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 08:20:45,084 log 241 Forbidden: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:20:45,086 log 241 Forbidden: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 08:20:45,087 log 241 Forbidden: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:20:45,088 log 241 Forbidden: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 08:20:45,089 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:45,089 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:45,090 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:45,090 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:45,091 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:45,091 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:45,093 log 241 Forbidden: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:20:45,094 log 241 Forbidden: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:20:45,095 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:20:45,095 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 403 58
+INFO 2023-10-07 08:20:53,779 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 08:21:09,691 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+WARNING 2023-10-07 08:21:09,714 log 241 Forbidden: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 08:21:09,715 log 241 Forbidden: /meiduo_admin/statistical/total_count/
+WARNING 2023-10-07 08:21:09,715 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:21:09,717 log 241 Forbidden: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:21:09,718 log 241 Forbidden: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:21:09,720 log 241 Forbidden: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 08:21:09,723 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:21:09,721 log 241 Forbidden: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 08:21:09,722 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:21:09,723 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:21:09,722 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:21:09,724 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:21:09,725 log 241 Forbidden: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:21:09,726 log 241 Forbidden: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:21:09,727 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:21:09,727 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 403 58
+INFO 2023-10-07 08:21:44,689 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-07 08:21:50,234 log 241 Not Found: /meiduo_admin/api/statistical/total_count/
+WARNING 2023-10-07 08:21:50,240 basehttp 187 "GET /meiduo_admin/api/statistical/total_count/ HTTP/1.1" 404 2487
+INFO 2023-10-07 08:26:23,394 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+WARNING 2023-10-07 08:26:23,426 log 241 Forbidden: /meiduo_admin/statistical/total_count/
+WARNING 2023-10-07 08:26:23,431 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 403 58
+WARNING 2023-10-07 08:26:23,444 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:26:23,448 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:26:23,449 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:26:23,450 log 241 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 08:26:23,451 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 2481
+WARNING 2023-10-07 08:26:23,452 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:26:23,453 log 241 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 08:26:23,454 log 241 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 08:26:23,461 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:26:23,462 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:26:23,462 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 2487
+WARNING 2023-10-07 08:26:23,462 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 2487
+WARNING 2023-10-07 08:26:23,463 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:26:23,463 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:30:30,402 log 241 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 08:30:30,403 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:30:30,404 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:30:30,405 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 2481
+WARNING 2023-10-07 08:30:30,405 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:30:30,407 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:30:59,354 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:30:59,359 log 241 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 08:30:59,362 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:30:59,365 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:30:59,366 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 2481
+WARNING 2023-10-07 08:30:59,367 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:30:59,370 log 241 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 08:30:59,375 log 241 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 08:30:59,382 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:30:59,382 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 2487
+WARNING 2023-10-07 08:30:59,383 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 2487
+WARNING 2023-10-07 08:30:59,385 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:30:59,386 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:30:59,387 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+INFO 2023-10-07 08:32:10,932 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 08:32:14,065 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2023-10-07 08:32:19,196 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+WARNING 2023-10-07 08:32:19,204 log 241 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 08:32:19,204 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:32:19,205 log 241 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 08:32:19,205 log 241 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 08:32:19,206 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:32:19,206 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 2487
+WARNING 2023-10-07 08:32:19,206 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:32:19,206 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 2487
+WARNING 2023-10-07 08:32:19,206 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 2481
+WARNING 2023-10-07 08:32:19,206 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:32:19,211 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:32:19,211 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:32:19,212 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:32:19,212 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+INFO 2023-10-07 08:32:59,636 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/home/home_views.py changed, reloading.
+INFO 2023-10-07 08:32:59,968 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-07 08:33:05,865 log 241 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 08:33:05,865 log 241 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 08:33:05,865 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:33:05,866 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:33:05,866 log 241 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 08:33:05,866 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 2481
+WARNING 2023-10-07 08:33:05,866 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 2487
+WARNING 2023-10-07 08:33:05,868 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:33:05,868 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:33:05,868 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 2487
+WARNING 2023-10-07 08:33:05,873 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:33:05,874 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:33:05,875 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:33:05,875 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+INFO 2023-10-07 08:33:05,876 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2023-10-07 08:33:32,067 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/home/home_views.py changed, reloading.
+INFO 2023-10-07 08:33:32,345 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-07 08:34:05,161 log 241 Not Found: /meiduo_admin/statistical/day_increment/
+WARNING 2023-10-07 08:34:05,162 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:34:05,162 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:34:05,163 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:34:05,163 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 404 2481
+WARNING 2023-10-07 08:34:05,163 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+INFO 2023-10-07 08:34:05,176 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+WARNING 2023-10-07 08:34:08,549 log 241 Not Found: /meiduo_admin/statistical/goods_day_views/
+WARNING 2023-10-07 08:34:08,551 log 241 Not Found: /meiduo_admin/statistical/month_increment/
+WARNING 2023-10-07 08:34:08,552 log 241 Not Found: /meiduo_admin/statistical/day_active/
+WARNING 2023-10-07 08:34:08,553 log 241 Not Found: /meiduo_admin/statistical/day_orders/
+WARNING 2023-10-07 08:34:08,553 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 404 2487
+WARNING 2023-10-07 08:34:08,554 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 404 2487
+WARNING 2023-10-07 08:34:08,555 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 404 2472
+WARNING 2023-10-07 08:34:08,556 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 404 2472
+INFO 2023-10-07 08:34:33,557 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 08:34:33,877 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 08:34:38,892 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2023-10-07 08:34:38,899 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 11
+INFO 2023-10-07 08:34:38,902 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 52
+INFO 2023-10-07 08:34:38,906 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2023-10-07 08:34:38,906 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2023-10-07 08:34:38,920 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2023-10-07 08:34:38,921 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2023-10-07 08:34:38,930 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
