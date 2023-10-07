@@ -774,3 +774,101 @@ INFO 2023-10-07 09:02:33,023 autoreload 677 Watching for file changes with StatR
 INFO 2023-10-07 09:02:40,981 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 2
 INFO 2023-10-07 09:02:40,985 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 56
 INFO 2023-10-07 09:02:40,986 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 2
+INFO 2023-10-07 09:17:38,057 basehttp 187 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 259
+INFO 2023-10-07 09:17:39,875 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2023-10-07 09:17:39,882 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2023-10-07 09:17:39,882 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 11
+INFO 2023-10-07 09:17:39,882 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2023-10-07 09:17:39,888 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 52
+INFO 2023-10-07 09:17:39,893 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2023-10-07 09:17:39,894 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2023-10-07 09:17:39,905 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2023-10-07 09:17:44,045 basehttp 187 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:17:44,048 basehttp 187 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:17:44,049 basehttp 187 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2023-10-07 09:17:44,080 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 2
+WARNING 2023-10-07 09:17:44,081 log 241 Not Found: /meiduo_admin/skus/
+WARNING 2023-10-07 09:17:44,083 log 241 Not Found: /meiduo_admin/skus/categories/
+WARNING 2023-10-07 09:17:44,083 basehttp 187 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 404 5197
+WARNING 2023-10-07 09:17:44,083 basehttp 187 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 5194
+WARNING 2023-10-07 09:17:44,087 log 241 Not Found: /meiduo_admin/skus/categories/
+WARNING 2023-10-07 09:17:44,088 basehttp 187 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 404 5194
+INFO 2023-10-07 09:17:44,089 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 2
+INFO 2023-10-07 09:17:44,821 basehttp 187 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2023-10-07 09:17:44,830 log 241 Not Found: /meiduo_admin/goods/
+WARNING 2023-10-07 09:17:44,830 basehttp 187 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 5187
+INFO 2023-10-07 09:17:46,414 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 2
+INFO 2023-10-07 09:17:46,430 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 2
+INFO 2023-10-07 09:17:46,432 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 730
+INFO 2023-10-07 09:17:58,013 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/4/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:17:58,021 basehttp 187 "GET /meiduo_admin/goods/specs/4/ HTTP/1.1" 200 134
+INFO 2023-10-07 09:30:13,434 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2023-10-07 09:30:13,444 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2023-10-07 09:30:13,451 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1307
+INFO 2023-10-07 09:30:23,926 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/2/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:30:23,949 basehttp 187 "GET /meiduo_admin/goods/specs/2/ HTTP/1.1" 200 159
+INFO 2023-10-07 09:30:26,579 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/1/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:30:26,598 basehttp 187 "GET /meiduo_admin/goods/specs/1/ HTTP/1.1" 200 165
+INFO 2023-10-07 09:30:29,149 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/6/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:30:29,168 basehttp 187 "GET /meiduo_admin/goods/specs/6/ HTTP/1.1" 200 154
+INFO 2023-10-07 09:30:33,742 basehttp 187 "GET /meiduo_admin/goods/specs/4/ HTTP/1.1" 200 151
+INFO 2023-10-07 09:30:48,030 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:30:48,051 basehttp 187 "POST /meiduo_admin/goods/specs/ HTTP/1.1" 201 159
+INFO 2023-10-07 09:30:48,088 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1467
+WARNING 2023-10-07 09:30:58,369 log 241 Not Found: /meiduo_admin/goods/
+WARNING 2023-10-07 09:30:58,370 basehttp 187 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 5187
+INFO 2023-10-07 09:31:03,013 basehttp 187 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:31:03,013 basehttp 187 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:31:03,013 basehttp 187 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2023-10-07 09:31:03,029 log 241 Not Found: /meiduo_admin/skus/simple/
+WARNING 2023-10-07 09:31:03,030 log 241 Not Found: /meiduo_admin/skus/images/
+WARNING 2023-10-07 09:31:03,031 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 5182
+WARNING 2023-10-07 09:31:03,031 basehttp 187 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 404 5205
+WARNING 2023-10-07 09:31:03,043 log 241 Not Found: /meiduo_admin/skus/simple/
+WARNING 2023-10-07 09:31:03,043 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 5182
+INFO 2023-10-07 09:32:40,673 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 09:32:41,041 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 09:33:00,732 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 09:33:01,043 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 09:33:27,843 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 09:33:28,178 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 09:34:36,047 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 09:34:36,332 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 09:48:24,535 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 09:48:24,898 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 09:49:48,647 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 09:49:48,939 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 09:55:14,771 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-07 09:55:20,711 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2023-10-07 09:55:20,725 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2023-10-07 09:55:20,742 basehttp 187 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 56271
+INFO 2023-10-07 09:55:20,750 basehttp 187 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6244
+INFO 2023-10-07 09:55:20,768 basehttp 187 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 56271
+INFO 2023-10-07 09:55:30,332 basehttp 187 "OPTIONS /meiduo_admin/goods/1/specs/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:55:30,358 basehttp 187 "GET /meiduo_admin/goods/1/specs/ HTTP/1.1" 200 1475
+WARNING 2023-10-07 09:55:51,507 log 241 Not Found: /meiduo_admin/goods/
+WARNING 2023-10-07 09:55:51,507 basehttp 187 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 404 7634
+INFO 2023-10-07 09:55:54,180 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2023-10-07 09:55:54,205 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2023-10-07 09:55:54,206 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1467
+INFO 2023-10-07 09:55:54,916 basehttp 187 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2023-10-07 09:55:54,925 log 241 Not Found: /meiduo_admin/specs/options/
+WARNING 2023-10-07 09:55:54,925 basehttp 187 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 7658
+INFO 2023-10-07 09:55:55,423 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:55:55,441 basehttp 187 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 368
+INFO 2023-10-07 09:56:31,504 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2023-10-07 09:56:31,521 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 126
+INFO 2023-10-07 09:56:31,537 basehttp 187 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 56271
+INFO 2023-10-07 09:56:31,537 basehttp 187 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6244
+INFO 2023-10-07 09:56:31,559 basehttp 187 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 56271
+INFO 2023-10-07 09:56:34,341 basehttp 187 "GET /meiduo_admin/goods/1/specs/ HTTP/1.1" 200 1475
+INFO 2023-10-07 09:56:34,347 basehttp 187 "OPTIONS /meiduo_admin/skus/1/ HTTP/1.1" 200 0
+INFO 2023-10-07 09:56:34,354 basehttp 187 "GET /meiduo_admin/skus/1/ HTTP/1.1" 200 672
+INFO 2023-10-07 09:56:34,414 basehttp 187 "GET /meiduo_admin/goods/1/specs/ HTTP/1.1" 200 1475
+INFO 2023-10-07 09:57:50,694 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 09:57:51,040 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-07 09:58:32,408 log 241 Not Found: /meiduo_admin/specs/options/
+WARNING 2023-10-07 09:58:32,408 basehttp 187 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 404 7658
+INFO 2023-10-07 09:58:32,895 basehttp 187 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 368
+INFO 2023-10-07 09:59:19,291 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-07 09:59:19,582 autoreload 677 Watching for file changes with StatReloader

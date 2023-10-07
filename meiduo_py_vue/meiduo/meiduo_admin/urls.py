@@ -4,6 +4,7 @@ from rest_framework.routers import DefaultRouter
 from meiduo_admin.home import home_views
 from meiduo_admin.user import user_views
 from meiduo_admin.views import specs, options
+from meiduo_admin.views import skus, spus
 
 # from meiduo_admin.views import images
 
@@ -30,6 +31,14 @@ urlpatterns = [
 
     # ------------图片路由————————————
     #     url(r'^skus/simple/$', images.ImagesView.as_view({'get': 'simple'})),
+
+    # ------------sku路由————————————
+    # 在 SKUVIew 视图集内 定义的方法 specs 请求方法 get
+    url(r'^goods/(?P<pk>\d+)/specs/$', skus.SKUVIew.as_view({'get': 'specs'})),
+    url(r'^goods/brands/simple/$', spus.SPUGoodsView.as_view({'get': 'brand'})),
+    url(r'^goods/channel/categories/$', spus.SPUGoodsView.as_view({'get': 'channel'})),
+    url(r'^goods/channel/categories/(?P<pk>\d+)/$', spus.SPUGoodsView.as_view({'get': 'channels'})),
+
 ]
 
 # ----------规格表路由------
@@ -41,3 +50,8 @@ urlpatterns += router.urls
 # router = DefaultRouter()
 # router.register('skus/images', images.ImagesView, basename='images')
 # urlpatterns += router.urls
+
+# 1, skus 对应页面位置: 左侧菜单 -> 商品管理 -> sku管理
+router = DefaultRouter()
+router.register("skus", skus.SKUVIew, basename="skus")
+urlpatterns += router.urls
