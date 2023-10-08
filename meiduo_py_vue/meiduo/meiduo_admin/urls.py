@@ -8,7 +8,7 @@ from meiduo_admin.views import skus, spus
 from meiduo_admin.views import permissions, group, admin
 from meiduo_admin.views import brand
 
-# from meiduo_admin.views import orders
+from meiduo_admin.views import orders
 
 # from meiduo_admin.views import images
 
@@ -84,9 +84,9 @@ router.register('specs/options', options.OptionsView, basename='options')
 urlpatterns += router.urls
 
 # --------订单路由--------[有问题，缺少tb_order_goods表]
-# router = DefaultRouter()
-# router.register('orders', orders.OrderView, basename='orders')
-# urlpatterns += router.urls
+router = DefaultRouter()
+router.register('orders', orders.OrderView, basename='orders')
+urlpatterns += router.urls
 
 # --------权限路由--------
 router = DefaultRouter()
