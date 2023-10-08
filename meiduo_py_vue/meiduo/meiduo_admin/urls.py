@@ -6,6 +6,7 @@ from meiduo_admin.user import user_views
 from meiduo_admin.views import specs, options
 from meiduo_admin.views import skus, spus
 from meiduo_admin.views import permissions, group, admin
+from meiduo_admin.views import brand
 
 # from meiduo_admin.views import orders
 
@@ -69,8 +70,13 @@ urlpatterns += router.urls
 # --------spus路由--------
 router = DefaultRouter()
 router.register('goods', spus.SPUGoodsView, basename='spus')
-# print(router.urls)
 urlpatterns += router.urls
+
+# ----------品牌管理 路由------[路由命名时，有优先级，不完全匹配规则，因此，不能有交叉]
+router = DefaultRouter()
+router.register('brands', brand.BrandView, basename='brands')
+urlpatterns += router.urls
+
 
 # --------商品管理-规格选项管理 路由--------
 router = DefaultRouter()

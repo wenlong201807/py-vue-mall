@@ -43,9 +43,10 @@ export default {
   },
   methods: {
     fnGetData: function(num) {
+      console.log("品牌", num);
       let token = localStorage.token;
       this.axios
-        .get(cons.apis + "/goods/brands/", {
+        .get(cons.apis + "/brands/", {
           headers: {
             Authorization: "Bearer " + token
           },
@@ -56,6 +57,7 @@ export default {
           }
         })
         .then(dat => {
+          console.log(99, dat);
           this.aBrandsList = dat.data.lists;
           this.page = dat.data.page;
           this.pages = dat.data.pages;

@@ -10,6 +10,7 @@ class SPUGoodsView(ModelViewSet):
     """
         SPU表的增删改查
     """
+    print(2222)
     # 指定序列化器
     serializer_class = SPUGoodsSerialzier
     # 指定查询及

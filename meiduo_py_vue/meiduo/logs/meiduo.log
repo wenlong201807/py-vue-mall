@@ -1106,3 +1106,232 @@ INFO 2023-10-07 10:40:58,259 basehttp 187 "GET /meiduo_admin/permission/content_
 INFO 2023-10-07 10:40:58,265 basehttp 187 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 1860
 WARNING 2023-10-07 10:41:41,585 log 241 Not Found: /meiduo_admin/orders/
 WARNING 2023-10-07 10:41:41,585 basehttp 187 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 14632
+INFO 2023-10-07 10:52:37,127 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+INFO 2023-10-07 10:52:37,170 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2023-10-07 10:52:37,170 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 11
+INFO 2023-10-07 10:52:37,172 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2023-10-07 10:52:37,173 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 52
+INFO 2023-10-07 10:52:37,173 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2023-10-07 10:52:37,178 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2023-10-07 10:52:37,180 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2023-10-07 10:52:37,187 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+INFO 2023-10-07 10:52:39,791 basehttp 187 "OPTIONS /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2023-10-07 10:52:39,801 basehttp 187 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 259
+INFO 2023-10-07 10:53:18,291 basehttp 187 "GET /meiduo_admin/users/?page=1&pagesize=10&keyword= HTTP/1.1" 200 259
+INFO 2023-10-07 10:54:16,813 basehttp 187 "GET /meiduo_admin/permission/groups/simple/ HTTP/1.1" 200 44
+INFO 2023-10-07 10:54:16,816 basehttp 187 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 200 9132
+INFO 2023-10-07 10:54:16,819 basehttp 187 "GET /meiduo_admin/permission/admins/?page=1&pagesize=10 HTTP/1.1" 200 629
+INFO 2023-10-07 10:54:16,822 basehttp 187 "GET /meiduo_admin/permission/groups/simple/ HTTP/1.1" 200 44
+INFO 2023-10-07 10:54:16,825 basehttp 187 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 200 9132
+INFO 2023-10-07 10:54:26,601 basehttp 187 "GET /meiduo_admin/permission/perms/?page=1&pagesize=10 HTTP/1.1" 200 852
+INFO 2023-10-07 10:54:26,602 basehttp 187 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 1860
+INFO 2023-10-07 10:54:26,610 basehttp 187 "GET /meiduo_admin/permission/content_types/ HTTP/1.1" 200 1860
+INFO 2023-10-07 10:54:28,084 basehttp 187 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 200 9132
+INFO 2023-10-07 10:54:28,109 basehttp 187 "GET /meiduo_admin/permission/groups/?page=1&pagesize=10 HTTP/1.1" 200 98
+INFO 2023-10-07 10:54:28,131 basehttp 187 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 200 9132
+INFO 2023-10-07 10:54:29,421 basehttp 187 "GET /meiduo_admin/permission/groups/simple/ HTTP/1.1" 200 44
+INFO 2023-10-07 10:54:29,434 basehttp 187 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 200 9132
+INFO 2023-10-07 10:54:29,437 basehttp 187 "GET /meiduo_admin/permission/groups/simple/ HTTP/1.1" 200 44
+INFO 2023-10-07 10:54:29,439 basehttp 187 "GET /meiduo_admin/permission/admins/?page=1&pagesize=10 HTTP/1.1" 200 629
+INFO 2023-10-07 10:54:29,444 basehttp 187 "GET /meiduo_admin/permission/simple/ HTTP/1.1" 200 9132
+INFO 2023-10-07 10:54:32,661 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-07 10:54:32,677 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-07 10:54:32,694 basehttp 187 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 56271
+INFO 2023-10-07 10:54:32,698 basehttp 187 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6244
+INFO 2023-10-07 10:54:32,717 basehttp 187 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 56271
+INFO 2023-10-07 10:54:33,822 basehttp 187 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 11234
+INFO 2023-10-07 10:54:35,246 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-07 10:54:35,261 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-07 10:54:35,266 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1467
+INFO 2023-10-07 10:54:36,165 basehttp 187 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 1832
+INFO 2023-10-07 10:54:36,640 basehttp 187 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 368
+WARNING 2023-10-07 10:54:38,138 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-07 10:54:38,139 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-07 10:54:38,140 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-07 10:54:38,141 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-07 10:54:38,146 log 241 Not Found: /meiduo_admin/goods/channels/
+WARNING 2023-10-07 10:54:38,147 basehttp 187 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-07 10:54:38,149 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-07 10:54:38,149 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-07 10:54:38,150 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-07 10:54:38,150 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-07 10:54:39,581 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-07 10:54:39,582 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-07 10:54:39,584 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-07 10:54:39,585 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-07 10:54:39,585 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-07 10:54:39,585 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+INFO 2023-10-08 02:08:52,891 basehttp 187 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 02:08:52,929 basehttp 187 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 1832
+INFO 2023-10-08 02:08:53,390 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:08:53,408 basehttp 187 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 368
+INFO 2023-10-08 02:08:54,406 basehttp 187 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:08:54,408 basehttp 187 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:08:54,409 basehttp 187 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:08:54,413 basehttp 187 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 02:08:54,413 basehttp 187 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+WARNING 2023-10-08 02:08:54,425 log 241 Not Found: /meiduo_admin/goods/channels/
+WARNING 2023-10-08 02:08:54,425 basehttp 187 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 02:08:54,427 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 02:08:54,428 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:08:54,431 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 02:08:54,432 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:08:54,435 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 02:08:54,435 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:08:54,436 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 02:08:54,437 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+INFO 2023-10-08 02:09:04,923 basehttp 187 "OPTIONS /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2023-10-08 02:09:04,928 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 02:09:04,929 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 02:09:04,930 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:09:04,931 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:09:04,933 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:09:04,934 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+INFO 2023-10-08 02:15:53,717 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-08 02:15:54,090 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-08 02:16:04,949 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 02:16:04,949 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:16:04,950 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 02:16:04,951 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:16:04,951 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:16:04,951 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+INFO 2023-10-08 02:16:23,391 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-08 02:16:23,719 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 02:17:02,933 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-08 02:17:03,210 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 02:17:06,516 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-08 02:17:11,161 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 02:17:11,162 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:17:11,163 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:17:11,164 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 02:17:11,164 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 02:17:11,164 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+INFO 2023-10-08 02:17:31,427 basehttp 187 "OPTIONS /meiduo_admin/authorizations/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:17:31,533 basehttp 187 "POST /meiduo_admin/authorizations/ HTTP/1.1" 200 514
+INFO 2023-10-08 02:17:31,555 basehttp 187 "OPTIONS /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:17:31,556 basehttp 187 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:17:31,556 basehttp 187 "OPTIONS /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:17:31,557 basehttp 187 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:17:31,557 basehttp 187 "OPTIONS /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:17:31,557 basehttp 187 "OPTIONS /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:17:31,558 basehttp 187 "OPTIONS /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:17:31,558 basehttp 187 "OPTIONS /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:17:31,572 basehttp 187 "GET /meiduo_admin/statistical/goods_day_views/ HTTP/1.1" 200 52
+INFO 2023-10-08 02:17:31,573 basehttp 187 "GET /meiduo_admin/statistical/total_count/ HTTP/1.1" 200 11
+INFO 2023-10-08 02:17:31,573 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2023-10-08 02:17:31,574 basehttp 187 "GET /meiduo_admin/statistical/day_increment/ HTTP/1.1" 200 11
+INFO 2023-10-08 02:17:31,575 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2023-10-08 02:17:31,581 basehttp 187 "GET /meiduo_admin/statistical/day_active/ HTTP/1.1" 200 11
+INFO 2023-10-08 02:17:31,583 basehttp 187 "GET /meiduo_admin/statistical/day_orders/ HTTP/1.1" 200 11
+INFO 2023-10-08 02:17:31,589 basehttp 187 "GET /meiduo_admin/statistical/month_increment/ HTTP/1.1" 200 961
+WARNING 2023-10-08 02:17:35,606 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:17:35,608 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 02:17:35,610 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 02:17:35,610 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 02:17:35,611 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:17:35,611 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+INFO 2023-10-08 02:18:43,658 basehttp 187 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:18:43,659 basehttp 187 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:18:43,659 basehttp 187 "OPTIONS /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+INFO 2023-10-08 02:18:43,659 basehttp 187 "OPTIONS /meiduo_admin/skus/categories/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:18:43,662 basehttp 187 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:18:43,679 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 02:18:43,702 basehttp 187 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 56271
+INFO 2023-10-08 02:18:43,706 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 02:18:43,707 basehttp 187 "GET /meiduo_admin/skus/?page=1&pagesize=10&keyword= HTTP/1.1" 200 6244
+INFO 2023-10-08 02:18:43,723 basehttp 187 "GET /meiduo_admin/skus/categories/ HTTP/1.1" 200 56271
+INFO 2023-10-08 02:19:46,452 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-08 02:19:53,390 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:19:53,391 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 02:19:53,394 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 02:19:53,394 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:19:53,395 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 02:19:53,396 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+INFO 2023-10-08 02:22:40,629 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 02:26:52,849 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-08 02:26:57,879 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 02:26:57,880 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:26:57,885 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 02:26:57,886 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:26:57,894 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:26:57,894 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+INFO 2023-10-08 02:27:24,240 basehttp 187 "OPTIONS /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 02:27:24,284 basehttp 187 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 11234
+INFO 2023-10-08 02:27:31,092 basehttp 187 "OPTIONS /meiduo_admin/goods/brands/simple/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:27:31,093 basehttp 187 "OPTIONS /meiduo_admin/goods/channel/categories/ HTTP/1.1" 200 0
+INFO 2023-10-08 02:27:31,104 basehttp 187 "GET /meiduo_admin/goods/brands/simple/ HTTP/1.1" 200 400
+INFO 2023-10-08 02:27:31,116 basehttp 187 "GET /meiduo_admin/goods/channel/categories/ HTTP/1.1" 200 4749
+INFO 2023-10-08 02:27:33,776 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 02:27:33,786 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 02:27:33,792 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 02:27:33,795 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1467
+WARNING 2023-10-08 02:27:48,157 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:27:48,159 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 02:27:48,160 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 02:27:48,161 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 02:27:48,162 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:27:48,163 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 02:34:49,319 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:34:49,320 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 02:34:56,556 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:34:56,556 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 02:36:42,813 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:36:42,814 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+INFO 2023-10-08 02:40:51,633 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 02:41:01,926 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 02:41:01,932 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 02:41:01,938 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1467
+INFO 2023-10-08 02:41:16,213 basehttp 187 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 11234
+WARNING 2023-10-08 02:42:06,187 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:42:06,188 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+INFO 2023-10-08 02:46:19,428 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 02:46:19,742 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-08 02:46:26,216 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:46:26,217 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 02:46:41,394 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:46:41,395 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+INFO 2023-10-08 02:47:10,671 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/views/spus.py changed, reloading.
+INFO 2023-10-08 02:47:11,008 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 02:47:16,653 basehttp 187 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 11234
+INFO 2023-10-08 02:47:33,790 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 02:47:33,806 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 02:47:33,808 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1467
+WARNING 2023-10-08 02:48:09,360 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:48:09,360 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 02:51:50,943 log 241 Not Found: /meiduo_admin/goods/brands/
+WARNING 2023-10-08 02:51:50,946 basehttp 187 "GET /meiduo_admin/goods/brands/?page=1&pagesize=10 HTTP/1.1" 404 23
+INFO 2023-10-08 02:52:03,517 basehttp 187 "GET /meiduo_admin/goods/?page=1&pagesize=10 HTTP/1.1" 200 11234
+INFO 2023-10-08 02:53:28,442 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-08 02:53:28,795 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 02:53:38,923 basehttp 187 "GET /meiduo_admin/yy/brands/?page=1&pagesize=10 HTTP/1.1" 200 496
+INFO 2023-10-08 02:55:33,638 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-08 02:55:33,984 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 02:55:44,390 basehttp 187 "OPTIONS /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 02:55:44,405 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 496
+WARNING 2023-10-08 02:55:44,424 log 241 Not Found: /group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149
+WARNING 2023-10-08 02:55:44,424 log 241 Not Found: /group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795
+WARNING 2023-10-08 02:55:44,425 basehttp 187 "GET /group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795 HTTP/1.1" 404 2238
+WARNING 2023-10-08 02:55:44,425 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149 HTTP/1.1" 404 2238
+INFO 2023-10-08 02:55:47,666 basehttp 187 "OPTIONS /meiduo_admin/goods/brands/1/ HTTP/1.1" 200 0
+WARNING 2023-10-08 02:55:47,689 log 241 Not Found: /meiduo_admin/goods/brands/1/
+WARNING 2023-10-08 02:55:47,690 basehttp 187 "GET /meiduo_admin/goods/brands/1/ HTTP/1.1" 404 15877
+WARNING 2023-10-08 02:56:19,263 log 241 Not Found: /meiduo_admin/goods/brands/1/
+WARNING 2023-10-08 02:56:19,265 basehttp 187 "GET /meiduo_admin/goods/brands/1/ HTTP/1.1" 404 15877
+WARNING 2023-10-08 02:59:54,961 log 241 Not Found: /meiduo_admin/goods/brands/1/
+WARNING 2023-10-08 02:59:54,962 basehttp 187 "PUT /meiduo_admin/goods/brands/1/ HTTP/1.1" 404 15877
+WARNING 2023-10-08 03:00:58,535 log 241 Not Found: /meiduo_admin/goods/brands/1/
+WARNING 2023-10-08 03:00:58,541 basehttp 187 "PUT /meiduo_admin/goods/brands/1/ HTTP/1.1" 404 15877
+INFO 2023-10-08 03:01:04,609 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 496
+WARNING 2023-10-08 03:01:04,628 log 241 Not Found: /group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795
+WARNING 2023-10-08 03:01:04,640 log 241 Not Found: /group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149
+WARNING 2023-10-08 03:01:04,641 basehttp 187 "GET /group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795 HTTP/1.1" 404 2238
+WARNING 2023-10-08 03:01:04,672 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149 HTTP/1.1" 404 2238
+INFO 2023-10-08 03:01:04,673 basehttp 80 - Broken pipe from ('127.0.0.1', 64979)
+INFO 2023-10-08 03:01:20,576 basehttp 187 "OPTIONS /meiduo_admin/brands/ HTTP/1.1" 200 0
+INFO 2023-10-08 03:01:23,857 basehttp 187 "POST /meiduo_admin/brands/ HTTP/1.1" 201 219
+INFO 2023-10-08 03:01:23,868 basehttp 187 "OPTIONS /meiduo_admin/brands/?pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 03:01:23,874 basehttp 187 "GET /meiduo_admin/brands/?pagesize=10 HTTP/1.1" 200 716
+WARNING 2023-10-08 03:01:23,883 log 241 Not Found: /截屏2023-09-28_下午2.13.18.png
+WARNING 2023-10-08 03:01:23,884 basehttp 187 "GET /%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2211
+WARNING 2023-10-08 03:05:55,687 log 241 Not Found: /截屏2023-09-28_下午2.13.18.png
+WARNING 2023-10-08 03:05:55,688 basehttp 187 "GET /%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2211

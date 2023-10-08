@@ -72,7 +72,7 @@ export default {
       fd.append("first_letter", this.BrandsForm.first_letter);
       fd.append("logo", fileValue.files[0], fileValue.files[0].name);
       this.axios
-        .post(cons.apis + "/goods/brands/", fd, {
+        .post(cons.apis + "/brands/", fd, {
           headers: {
             Authorization: "Bearer " + token,
             "Content-Type": "multipart/form-data"
@@ -94,43 +94,11 @@ export default {
           console.log(err.response);
         });
     },
-    fnGetChannelType() {
-      this.axios
-        .get(cons.apis + "/goods/channel_types/", {
-          headers: {
-            Authorization: "Bearer " + token
-          },
-          responseType: "json"
-        })
-        .then(dat => {
-          this.group_type_list = dat.data;
-        })
-        .catch(err => {
-          console.log(err.response);
-        });
-    },
-    fnGetCategories() {
-      this.axios
-        .get(cons.apis + "/goods/categories/", {
-          headers: {
-            Authorization: "Bearer " + token
-          },
-          responseType: "json"
-        })
-        .then(dat => {
-          this.category_list = dat.data;
-        })
-        .catch(err => {
-          console.log(err.response);
-        });
-    },
+
     resetForm(formName) {
       this.$refs[formName].resetFields();
     }
   },
-  mounted() {
-    this.fnGetChannelType();
-    this.fnGetCategories();
-  }
+  mounted() {}
 };
 </script>
