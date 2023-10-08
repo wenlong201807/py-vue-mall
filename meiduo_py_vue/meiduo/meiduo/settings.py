@@ -166,8 +166,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
-
+STATIC_URL = 'static/'  # 未使用
+# 图片，文件，等动态资源文件目录
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+# 给前端使用的动态资源域名前缀
+FE_MEDIA_DOMAIN = 'http://127.0.0.1:8000/media/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 

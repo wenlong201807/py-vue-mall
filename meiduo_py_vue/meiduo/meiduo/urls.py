@@ -20,7 +20,8 @@ from django.urls import path
 # urlpatterns = [
 #     path('admin/', admin.site.urls),
 # ]
-
+from django.views.static import serve
+from meiduo import settings
 from django.conf.urls import include
 from django.urls import re_path as url
 
@@ -31,4 +32,9 @@ urlpatterns = [
     # url(r'^', include(('contents.urls', 'contents'), namespace='contents')),
     # url('^', include('verifycations.urls')),  # 校验模块
     # url('^', include('oauth.urls')),  # 第三方授权模块
+
+# media路径配置
+    # 1.1版 path('media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT})
+    # 2.x版本的配置路径方式
+    url('media/(?P<path>.*)', serve, {'document_root': settings.MEDIA_ROOT})
 ]

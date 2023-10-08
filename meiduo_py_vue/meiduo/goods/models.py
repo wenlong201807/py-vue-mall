@@ -53,7 +53,8 @@ class GoodsChannel(BaseModel):
 class Brand(BaseModel):
     """品牌"""
     name = models.CharField(max_length=20, verbose_name='名称')
-    logo = models.ImageField(verbose_name='Logo图片')
+    # http://127.0.0.1:8000/media/avatar/default.png
+    logo = models.ImageField(upload_to="brand/%Y-%m", default='/avatar/default.png', verbose_name='Logo图片')
     first_letter = models.CharField(max_length=1, verbose_name='品牌首字母')
 
     class Meta:
