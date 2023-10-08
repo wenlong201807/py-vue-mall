@@ -9,7 +9,6 @@ class BrandView(ModelViewSet):
     """
         品牌表的增删改查
     """
-    print(666)
     serializer_class = BrandSerializer
     queryset = Brand.objects.all()
     pagination_class = MyPageNumberPagination

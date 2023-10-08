@@ -10,7 +10,7 @@ from meiduo_admin.views import brand
 
 from meiduo_admin.views import orders
 
-# from meiduo_admin.views import images
+from meiduo_admin.views import images
 
 urlpatterns = [
     # 后台系统的 登录 参考 https://www.jianshu.com/p/7ebf659c57a3
@@ -34,7 +34,7 @@ urlpatterns = [
     url(r'^goods/specs/simple/$', options.OptionSimple.as_view()),
 
     # ------------图片路由————————————
-    #     url(r'^skus/simple/$', images.ImagesView.as_view({'get': 'simple'})),
+    url(r'^skus/simple/$', images.ImagesView.as_view({'get': 'simple'})),
 
     # ------------sku路由————————————
     # 在 SKUVIew 视图集内 定义的方法 specs 请求方法 get
@@ -58,9 +58,10 @@ router.register('goods/specs', specs.SpecsView, basename='specs')
 urlpatterns += router.urls
 
 # -------图片表路由------
-# router = DefaultRouter()
-# router.register('skus/images', images.ImagesView, basename='images')
-# urlpatterns += router.urls
+router = DefaultRouter()
+router.register('skus-images', images.ImagesView, basename='images')
+print(997, router.urls)
+urlpatterns += router.urls
 
 # 1, skus 对应页面位置: 左侧菜单 -> 商品管理 -> sku管理
 router = DefaultRouter()

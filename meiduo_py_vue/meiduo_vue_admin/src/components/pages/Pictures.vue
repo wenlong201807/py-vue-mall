@@ -48,7 +48,7 @@ export default {
     fnGetData: function(num) {
       let token = localStorage.token;
       this.axios
-        .get(cons.apis + "/skus/images/", {
+        .get(cons.apis + "/skus-images/", {
           headers: {
             Authorization: "Bearer " + token
           },

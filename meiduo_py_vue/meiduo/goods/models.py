@@ -104,7 +104,8 @@ class SKU(BaseModel):
     sales = models.IntegerField(default=0, verbose_name='销量')
     comments = models.IntegerField(default=0, verbose_name='评价数')
     is_launched = models.BooleanField(default=True, verbose_name='是否上架销售')
-    default_image_url = models.ImageField(max_length=200, default='', null=True, blank=True, verbose_name='默认图片')
+    default_image_url = models.ImageField(upload_to="sku/%Y-%m", default='/avatar/default.png', null=True, blank=True,
+                                          verbose_name='默认图片')
 
     class Meta:
         db_table = 'tb_sku'
@@ -118,7 +119,7 @@ class SKU(BaseModel):
 class SKUImage(BaseModel):
     """SKU图片"""
     sku = models.ForeignKey(SKU, on_delete=models.CASCADE, verbose_name='sku')
-    image = models.ImageField(default='', verbose_name='图片')
+    image = models.ImageField(upload_to="sku-image/%Y-%m", default='/avatar/default.png', verbose_name='图片')
 
     class Meta:
         db_table = 'tb_sku_image'

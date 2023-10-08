@@ -64,7 +64,7 @@ export default {
       fd.append("image", fileValue.files[0], fileValue.files[0].name);
 
       this.axios
-        .post(cons.apis + "/skus/images/", fd, {
+        .post(cons.apis + "/skus-images/", fd, {
           headers: {
             Authorization: "Bearer " + token,
             "Content-Type": "multipart/form-data"

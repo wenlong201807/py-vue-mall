@@ -88,7 +88,7 @@ export default {
       this.pop_show = true;
       this.edit_id = id;
       this.axios
-        .get(cons.apis + "/skus/images/" + this.edit_id + "/", {
+        .get(cons.apis + "/skus-images/" + this.edit_id + "/", {
           headers: {
             Authorization: "Bearer " + token
           },
@@ -109,7 +109,7 @@ export default {
       fd.append("image", fileValue.files[0], fileValue.files[0].name);
 
       this.axios
-        .put(cons.apis + "/skus/images/" + this.edit_id + "/", fd, {
+        .put(cons.apis + "/skus-images/" + this.edit_id + "/", fd, {
           headers: {
             Authorization: "Bearer " + token
           },
@@ -137,7 +137,7 @@ export default {
       })
         .then(() => {
           this.axios
-            .delete(cons.apis + "/skus/images/" + this.edit_id + "/", {
+            .delete(cons.apis + "/skus-images/" + this.edit_id + "/", {
               headers: {
                 Authorization: "Bearer " + token
               },

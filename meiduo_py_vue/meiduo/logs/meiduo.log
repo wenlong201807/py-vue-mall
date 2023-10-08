@@ -1335,3 +1335,844 @@ WARNING 2023-10-08 03:01:23,883 log 241 Not Found: /截屏2023-09-28_下午2.13.
 WARNING 2023-10-08 03:01:23,884 basehttp 187 "GET /%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2211
 WARNING 2023-10-08 03:05:55,687 log 241 Not Found: /截屏2023-09-28_下午2.13.18.png
 WARNING 2023-10-08 03:05:55,688 basehttp 187 "GET /%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2211
+INFO 2023-10-08 03:07:27,469 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/urls.py changed, reloading.
+INFO 2023-10-08 03:07:27,811 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:08:15,291 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/urls.py changed, reloading.
+INFO 2023-10-08 03:08:15,618 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:10:31,512 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-08 03:10:31,862 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:14:12,859 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/goods/models.py changed, reloading.
+INFO 2023-10-08 03:14:13,193 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:14:48,514 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/goods/models.py changed, reloading.
+INFO 2023-10-08 03:14:48,866 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-08 03:15:59,508 log 241 Not Found: /
+WARNING 2023-10-08 03:15:59,509 basehttp 187 "GET / HTTP/1.1" 404 2191
+WARNING 2023-10-08 03:15:59,514 log 241 Not Found: /
+WARNING 2023-10-08 03:15:59,514 basehttp 187 "GET / HTTP/1.1" 404 2191
+INFO 2023-10-08 03:16:25,281 basehttp 187 "GET /media/avatar/default.png HTTP/1.1" 200 429534
+INFO 2023-10-08 03:17:12,075 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/goods/models.py changed, reloading.
+INFO 2023-10-08 03:17:12,381 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:25:49,117 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/orders/migrations/0001_initial.py changed, reloading.
+INFO 2023-10-08 03:25:49,343 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:27:01,690 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/oauth/migrations/0001_initial.py changed, reloading.
+INFO 2023-10-08 03:27:01,914 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:37:29,780 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 716
+WARNING 2023-10-08 03:37:29,809 log 241 Not Found: /截屏2023-09-28_下午2.13.18.png
+WARNING 2023-10-08 03:37:29,810 log 241 Not Found: /group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149
+WARNING 2023-10-08 03:37:29,810 log 241 Not Found: /group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795
+WARNING 2023-10-08 03:37:29,811 basehttp 187 "GET /%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2335
+WARNING 2023-10-08 03:37:29,811 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149 HTTP/1.1" 404 2362
+WARNING 2023-10-08 03:37:29,811 basehttp 187 "GET /group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795 HTTP/1.1" 404 2362
+INFO 2023-10-08 03:37:29,811 basehttp 80 - Broken pipe from ('127.0.0.1', 59838)
+INFO 2023-10-08 03:38:21,057 basehttp 187 "POST /meiduo_admin/brands/ HTTP/1.1" 201 235
+INFO 2023-10-08 03:38:21,099 basehttp 187 "GET /meiduo_admin/brands/?pagesize=10 HTTP/1.1" 200 952
+WARNING 2023-10-08 03:38:21,110 log 241 Not Found: /brand/2023-10/截屏2023-09-28_下午2.13.18.png
+WARNING 2023-10-08 03:38:21,111 basehttp 187 "GET /brand/2023-10/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2377
+WARNING 2023-10-08 03:39:12,107 log 241 Not Found: /brand/2023-10/截屏2023-09-28_下午2.13.18.png
+WARNING 2023-10-08 03:39:12,116 basehttp 187 "GET /brand/2023-10/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2377
+INFO 2023-10-08 03:39:18,139 basehttp 187 "GET /media/brand/2023-10/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 200 10435
+INFO 2023-10-08 03:40:33,106 basehttp 187 "OPTIONS /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 0
+WARNING 2023-10-08 03:40:33,122 log 241 Not Found: /meiduo_admin/orders/
+WARNING 2023-10-08 03:40:33,123 basehttp 187 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 16013
+WARNING 2023-10-08 03:40:38,765 log 241 Not Found: /meiduo_admin/orders/
+WARNING 2023-10-08 03:40:38,765 basehttp 187 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 16013
+INFO 2023-10-08 03:47:32,443 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:47:32,810 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-08 03:47:34,940 log 241 Internal Server Error: /meiduo_admin/brands/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 1837, in to_representation
+    method = getattr(self.parent, self.method_name)
+AttributeError: 'BrandSerializer' object has no attribute 'get_recommend_courses'
+ERROR 2023-10-08 03:47:34,941 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 500 124780
+INFO 2023-10-08 03:48:00,932 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:48:01,261 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:48:59,237 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:48:59,609 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:49:16,312 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:49:16,594 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:49:30,043 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 1032
+INFO 2023-10-08 03:49:30,054 basehttp 187 "GET /media/brand/2023-10/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 304 0
+INFO 2023-10-08 03:50:22,163 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:50:22,502 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:50:25,928 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 1032
+INFO 2023-10-08 03:53:11,718 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:53:12,068 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:53:15,661 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 1032
+INFO 2023-10-08 03:53:15,678 basehttp 187 "GET /media/brand/2023-10/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 304 0
+INFO 2023-10-08 03:55:34,132 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo/settings.py changed, reloading.
+INFO 2023-10-08 03:55:34,489 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:56:00,495 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:56:00,830 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:56:04,291 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 1032
+INFO 2023-10-08 03:56:04,301 basehttp 187 "GET /media/brand/2023-10/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 304 0
+INFO 2023-10-08 03:56:43,296 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:56:43,670 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-08 03:56:46,103 log 241 Internal Server Error: /meiduo_admin/brands/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py", line 16, in get_logo
+    return settings.FE_MEDIA_DOMAIN + obj.logo
+TypeError: can only concatenate str (not "ImageFieldFile") to str
+ERROR 2023-10-08 03:56:46,104 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 500 129528
+INFO 2023-10-08 03:57:03,513 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:57:03,835 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-10-08 03:57:05,878 log 241 Internal Server Error: /meiduo_admin/brands/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py", line 16, in get_logo
+    return str(settings.FE_MEDIA_DOMAIN) + obj.logo
+TypeError: can only concatenate str (not "ImageFieldFile") to str
+ERROR 2023-10-08 03:57:05,879 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 500 129538
+INFO 2023-10-08 03:57:30,895 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:57:31,236 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 03:57:33,130 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 928
+WARNING 2023-10-08 03:57:33,161 log 241 Not Found: /media/截屏2023-09-28_下午2.13.18.png
+WARNING 2023-10-08 03:57:33,161 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149
+WARNING 2023-10-08 03:57:33,161 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795
+WARNING 2023-10-08 03:57:33,162 basehttp 187 "GET /media/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2602
+WARNING 2023-10-08 03:57:33,162 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149 HTTP/1.1" 404 2646
+WARNING 2023-10-08 03:57:33,162 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795 HTTP/1.1" 404 2646
+INFO 2023-10-08 03:57:33,162 basehttp 80 - Broken pipe from ('127.0.0.1', 49502)
+INFO 2023-10-08 03:58:33,304 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/brand.py changed, reloading.
+INFO 2023-10-08 03:58:33,645 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:02:44,315 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:03:09,935 basehttp 187 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:09,935 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:09,935 basehttp 187 "OPTIONS /meiduo_admin/goods/simple/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:09,956 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 06:03:09,962 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 06:03:09,969 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1467
+INFO 2023-10-08 06:03:11,381 basehttp 187 "OPTIONS /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:11,430 basehttp 187 "GET /meiduo_admin/specs/options/?page=1&pagesize=10 HTTP/1.1" 200 1832
+INFO 2023-10-08 06:03:11,882 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:11,893 basehttp 187 "GET /meiduo_admin/goods/specs/simple/ HTTP/1.1" 200 368
+INFO 2023-10-08 06:03:12,150 basehttp 187 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:12,151 basehttp 187 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:12,152 basehttp 187 "OPTIONS /meiduo_admin/goods/channel_types/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:12,154 basehttp 187 "OPTIONS /meiduo_admin/goods/categories/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:12,161 basehttp 187 "OPTIONS /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2023-10-08 06:03:12,168 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 06:03:12,169 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:03:12,170 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 06:03:12,172 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:03:12,173 log 241 Not Found: /meiduo_admin/goods/channels/
+WARNING 2023-10-08 06:03:12,175 basehttp 187 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 06:03:12,176 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 06:03:12,176 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:03:12,178 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 06:03:12,178 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+INFO 2023-10-08 06:03:14,348 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 928
+WARNING 2023-10-08 06:03:14,376 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795
+WARNING 2023-10-08 06:03:14,377 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149
+WARNING 2023-10-08 06:03:14,377 log 241 Not Found: /media/截屏2023-09-28_下午2.13.18.png
+WARNING 2023-10-08 06:03:14,378 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:03:14,378 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:03:14,378 basehttp 187 "GET /media/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2602
+INFO 2023-10-08 06:03:14,379 basehttp 80 - Broken pipe from ('127.0.0.1', 60774)
+INFO 2023-10-08 06:03:15,409 basehttp 187 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:15,412 basehttp 187 "OPTIONS /meiduo_admin/skus/simple/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:03:15,413 basehttp 187 "OPTIONS /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 0
+WARNING 2023-10-08 06:03:15,426 log 241 Not Found: /meiduo_admin/skus/simple/
+WARNING 2023-10-08 06:03:15,427 log 241 Not Found: /meiduo_admin/skus/images/
+WARNING 2023-10-08 06:03:15,428 basehttp 187 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 06:03:15,428 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:03:15,436 log 241 Not Found: /meiduo_admin/skus/simple/
+WARNING 2023-10-08 06:03:15,436 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:03:33,168 log 241 Not Found: /meiduo_admin/orders/
+WARNING 2023-10-08 06:03:33,169 basehttp 187 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 16013
+WARNING 2023-10-08 06:03:40,748 log 241 Not Found: /meiduo_admin/orders/
+WARNING 2023-10-08 06:03:40,749 basehttp 187 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 404 16013
+INFO 2023-10-08 06:04:34,365 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-08 06:04:34,653 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:04:36,729 basehttp 187 "GET /meiduo_admin/orders/?page=1&pagesize=10&keyword= HTTP/1.1" 200 442
+INFO 2023-10-08 06:04:41,697 basehttp 187 "OPTIONS /meiduo_admin/orders/1/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:04:41,711 basehttp 187 "GET /meiduo_admin/orders/1/ HTTP/1.1" 200 386
+WARNING 2023-10-08 06:04:41,732 log 241 Not Found: /group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:04:41,733 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2362
+INFO 2023-10-08 06:04:47,519 basehttp 187 "OPTIONS /meiduo_admin/orders/1/status/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:04:47,540 basehttp 187 "PUT /meiduo_admin/orders/1/status/ HTTP/1.1" 200 27
+INFO 2023-10-08 06:04:47,565 basehttp 187 "GET /meiduo_admin/orders/1/ HTTP/1.1" 200 393
+INFO 2023-10-08 06:05:48,228 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-08 06:05:48,526 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:13:10,837 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-08 06:13:15,190 log 241 Not Found: /meiduo_admin/skus/simple/
+WARNING 2023-10-08 06:13:15,191 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 23
+INFO 2023-10-08 06:13:15,195 basehttp 187 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 2060
+WARNING 2023-10-08 06:13:15,196 log 241 Not Found: /meiduo_admin/skus/simple/
+WARNING 2023-10-08 06:13:15,197 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:13:15,232 log 241 Not Found: /group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:13:15,232 log 241 Not Found: /group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:13:15,233 log 241 Not Found: /group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:13:15,233 log 241 Not Found: /group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:13:15,233 log 241 Not Found: /group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:13:15,234 log 241 Not Found: /group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:13:15,234 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:13:15,234 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:13:15,235 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:13:15,235 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:13:15,235 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:13:15,236 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:13:15,246 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:13:15,247 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:13:15,247 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:13:15,247 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:13:15,247 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:13:15,248 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:13:15,248 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:13:15,248 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2362
+INFO 2023-10-08 06:14:07,119 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-08 06:14:07,413 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:14:15,882 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:14:15,884 basehttp 187 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 2060
+INFO 2023-10-08 06:14:15,887 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+WARNING 2023-10-08 06:14:15,919 log 241 Not Found: /group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:14:15,919 log 241 Not Found: /group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:14:15,920 log 241 Not Found: /group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:14:15,920 log 241 Not Found: /group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:14:15,920 log 241 Not Found: /group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:14:15,921 log 241 Not Found: /group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:14:15,921 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:14:15,922 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:14:15,922 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:14:15,922 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:14:15,923 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:14:15,924 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:14:15,933 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:14:15,935 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:14:15,935 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:14:15,936 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:14:15,936 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:14:15,936 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:14:15,937 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:14:15,937 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2362
+INFO 2023-10-08 06:14:29,558 basehttp 187 "OPTIONS /meiduo_admin/skus/images/ HTTP/1.1" 200 0
+WARNING 2023-10-08 06:14:29,615 log 241 Bad Request: /meiduo_admin/skus/images/
+WARNING 2023-10-08 06:14:29,615 basehttp 187 "POST /meiduo_admin/skus/images/ HTTP/1.1" 400 38
+INFO 2023-10-08 06:18:56,916 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/images.py changed, reloading.
+INFO 2023-10-08 06:18:57,284 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:19:40,415 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:19:40,422 basehttp 187 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 200 2060
+INFO 2023-10-08 06:19:40,426 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+WARNING 2023-10-08 06:19:40,452 log 241 Not Found: /group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:19:40,453 log 241 Not Found: /group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:19:40,453 log 241 Not Found: /group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:19:40,453 log 241 Not Found: /group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:19:40,454 log 241 Not Found: /group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:19:40,454 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:19:40,455 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:19:40,455 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:19:40,455 log 241 Not Found: /group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:19:40,456 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:19:40,456 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2362
+INFO 2023-10-08 06:19:40,456 basehttp 80 - Broken pipe from ('127.0.0.1', 49447)
+WARNING 2023-10-08 06:19:40,457 basehttp 187 "GET /group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:19:40,467 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:19:40,467 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:19:40,467 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:19:40,468 log 241 Not Found: /group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:19:40,468 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:19:40,468 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:19:40,468 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2362
+WARNING 2023-10-08 06:19:40,469 basehttp 187 "GET /group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2362
+INFO 2023-10-08 06:19:40,469 basehttp 80 - Broken pipe from ('127.0.0.1', 49455)
+WARNING 2023-10-08 06:19:55,522 log 241 Bad Request: /meiduo_admin/skus/images/
+WARNING 2023-10-08 06:19:55,523 basehttp 187 "POST /meiduo_admin/skus/images/ HTTP/1.1" 400 38
+INFO 2023-10-08 06:20:40,889 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 928
+INFO 2023-10-08 06:20:40,902 basehttp 187 "GET /media/brand/2023-10/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 304 0
+WARNING 2023-10-08 06:20:40,909 log 241 Not Found: /media/截屏2023-09-28_下午2.13.18.png
+WARNING 2023-10-08 06:20:40,913 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795
+WARNING 2023-10-08 06:20:40,913 basehttp 187 "GET /media/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2602
+WARNING 2023-10-08 06:20:40,914 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149
+INFO 2023-10-08 06:20:40,914 basehttp 80 - Broken pipe from ('127.0.0.1', 49935)
+WARNING 2023-10-08 06:20:40,914 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:20:40,914 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:20:40,915 basehttp 80 - Broken pipe from ('127.0.0.1', 49933)
+INFO 2023-10-08 06:20:40,915 basehttp 80 - Broken pipe from ('127.0.0.1', 49934)
+INFO 2023-10-08 06:24:51,212 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/images.py changed, reloading.
+INFO 2023-10-08 06:24:51,577 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:24:52,444 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:24:52,482 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+ERROR 2023-10-08 06:24:52,527 log 241 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/images.py", line 20, in get_image
+    print(99, obj.logo, settings.FE_MEDIA_DOMAIN)
+AttributeError: 'SKUImage' object has no attribute 'logo'
+ERROR 2023-10-08 06:24:52,532 basehttp 187 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 500 138516
+INFO 2023-10-08 06:24:59,896 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:24:59,928 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+ERROR 2023-10-08 06:24:59,961 log 241 Internal Server Error: /meiduo_admin/skus/images/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/images.py", line 20, in get_image
+    print(99, obj.logo, settings.FE_MEDIA_DOMAIN)
+AttributeError: 'SKUImage' object has no attribute 'logo'
+ERROR 2023-10-08 06:24:59,962 basehttp 187 "GET /meiduo_admin/skus/images/?page=1&pagesize=10 HTTP/1.1" 500 138516
+INFO 2023-10-08 06:26:39,084 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-08 06:26:39,419 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:27:45,358 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:27:47,923 basehttp 187 "OPTIONS /meiduo_admin/skus-images/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 06:27:47,933 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:27:47,955 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+ERROR 2023-10-08 06:27:48,002 log 241 Internal Server Error: /meiduo_admin/skus-images/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/images.py", line 20, in get_image
+    print(99, obj.logo, settings.FE_MEDIA_DOMAIN)
+AttributeError: 'SKUImage' object has no attribute 'logo'
+ERROR 2023-10-08 06:27:48,004 basehttp 187 "GET /meiduo_admin/skus-images/?page=1&pagesize=10 HTTP/1.1" 500 138516
+INFO 2023-10-08 06:27:53,216 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:27:53,242 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+ERROR 2023-10-08 06:27:53,269 log 241 Internal Server Error: /meiduo_admin/skus-images/
+Traceback (most recent call last):
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 1838, in to_representation
+    return method(value)
+  File "/Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/images.py", line 20, in get_image
+    print(99, obj.logo, settings.FE_MEDIA_DOMAIN)
+AttributeError: 'SKUImage' object has no attribute 'logo'
+ERROR 2023-10-08 06:27:53,271 basehttp 187 "GET /meiduo_admin/skus-images/?page=1&pagesize=10 HTTP/1.1" 500 138516
+INFO 2023-10-08 06:28:36,986 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/images.py changed, reloading.
+INFO 2023-10-08 06:28:37,367 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:28:39,190 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:28:39,207 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:28:39,208 basehttp 187 "GET /meiduo_admin/skus-images/?page=1&pagesize=10 HTTP/1.1" 200 2120
+WARNING 2023-10-08 06:28:39,245 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:28:39,246 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:28:39,246 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:28:39,247 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:28:39,247 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:28:39,248 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:28:39,248 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:28:39,248 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:28:39,248 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:28:39,248 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:28:39,248 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:28:39,248 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:28:39,277 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:28:39,279 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:28:39,290 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:28:39,291 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:28:39,291 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:28:39,292 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:28:39,293 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:28:39,293 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:28:52,139 log 241 Method Not Allowed: /meiduo_admin/skus/images/
+WARNING 2023-10-08 06:28:52,141 basehttp 187 "POST /meiduo_admin/skus/images/ HTTP/1.1" 405 41
+INFO 2023-10-08 06:29:18,879 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:29:46,084 basehttp 187 "OPTIONS /meiduo_admin/skus-images/ HTTP/1.1" 200 0
+WARNING 2023-10-08 06:29:46,099 log 241 Bad Request: /meiduo_admin/skus-images/
+WARNING 2023-10-08 06:29:46,100 basehttp 187 "POST /meiduo_admin/skus-images/ HTTP/1.1" 400 38
+INFO 2023-10-08 06:31:11,123 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/urls.py changed, reloading.
+INFO 2023-10-08 06:31:11,497 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:31:16,157 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:31:16,173 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:31:16,175 basehttp 187 "GET /meiduo_admin/skus-images/?page=1&pagesize=10 HTTP/1.1" 200 2120
+WARNING 2023-10-08 06:31:16,242 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:31:16,243 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:31:16,244 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:31:16,244 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:31:16,247 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:16,245 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:31:16,246 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:31:16,246 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:16,247 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:16,245 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:16,248 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:16,248 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:16,259 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:31:16,259 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:16,260 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:31:16,262 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:16,263 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:31:16,263 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+INFO 2023-10-08 06:31:16,263 basehttp 80 - Broken pipe from ('127.0.0.1', 53215)
+WARNING 2023-10-08 06:31:16,264 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:16,264 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:31:16,264 basehttp 80 - Broken pipe from ('127.0.0.1', 53214)
+INFO 2023-10-08 06:31:50,030 basehttp 187 "OPTIONS /meiduo_admin/skus-images/?page=4&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 06:31:50,049 basehttp 187 "GET /meiduo_admin/skus-images/?page=4&pagesize=10 HTTP/1.1" 200 2146
+WARNING 2023-10-08 06:31:50,077 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRdLGARgBAAAVslh9vkK00474545
+WARNING 2023-10-08 06:31:50,078 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRdI-ACDCRAARV14yhum80519978
+WARNING 2023-10-08 06:31:50,078 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRdMSAaDUtAAVslh9vkK04466364
+WARNING 2023-10-08 06:31:50,080 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRdLGARgBAAAVslh9vkK00474545 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:50,080 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRdMyAPoryAAMdyS99nTA1388842
+WARNING 2023-10-08 06:31:50,081 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRdI-ACDCRAARV14yhum80519978 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:50,081 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRdLqAD5leAAMdyS99nTA6298698
+WARNING 2023-10-08 06:31:50,082 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRdICAO_CRAAcPaeOqMpA2024091
+WARNING 2023-10-08 06:31:50,083 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRdMSAaDUtAAVslh9vkK04466364 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:50,089 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRdMyAPoryAAMdyS99nTA1388842 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:50,090 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRdOiAUBFXAAYJrpessGQ2842711
+WARNING 2023-10-08 06:31:50,090 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRdQSAHxqbAAQ3kdJbqeQ1136308
+WARNING 2023-10-08 06:31:50,091 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRdLqAD5leAAMdyS99nTA6298698 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:50,093 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRdICAO_CRAAcPaeOqMpA2024091 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:50,094 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRdPeAXNDMAAYJrpessGQ9777651
+INFO 2023-10-08 06:31:50,094 basehttp 80 - Broken pipe from ('127.0.0.1', 53385)
+WARNING 2023-10-08 06:31:50,094 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRdPCAed9FAAQ3kdJbqeQ7404140
+INFO 2023-10-08 06:31:50,095 basehttp 80 - Broken pipe from ('127.0.0.1', 53383)
+WARNING 2023-10-08 06:31:50,095 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRdOiAUBFXAAYJrpessGQ2842711 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:31:50,095 basehttp 80 - Broken pipe from ('127.0.0.1', 53380)
+WARNING 2023-10-08 06:31:50,095 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRdQSAHxqbAAQ3kdJbqeQ1136308 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:50,095 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRdPeAXNDMAAYJrpessGQ9777651 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:31:50,095 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRdPCAed9FAAQ3kdJbqeQ7404140 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:32:10,362 log 241 Bad Request: /meiduo_admin/skus-images/
+WARNING 2023-10-08 06:32:10,363 basehttp 187 "POST /meiduo_admin/skus-images/ HTTP/1.1" 400 38
+INFO 2023-10-08 06:34:19,744 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/views/images.py changed, reloading.
+INFO 2023-10-08 06:34:20,092 autoreload 677 Watching for file changes with StatReloader
+WARNING 2023-10-08 06:34:20,500 log 241 Bad Request: /meiduo_admin/skus-images/
+WARNING 2023-10-08 06:34:20,501 basehttp 187 "POST /meiduo_admin/skus-images/ HTTP/1.1" 400 38
+INFO 2023-10-08 06:35:37,828 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/images.py changed, reloading.
+INFO 2023-10-08 06:35:38,139 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:35:41,077 basehttp 187 "POST /meiduo_admin/skus-images/ HTTP/1.1" 201 163
+INFO 2023-10-08 06:35:41,098 basehttp 187 "OPTIONS /meiduo_admin/skus-images/?pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 06:35:41,111 basehttp 187 "GET /meiduo_admin/skus-images/?pagesize=10 HTTP/1.1" 200 2010
+WARNING 2023-10-08 06:35:41,150 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:35:41,150 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:35:41,151 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:35:41,151 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:35:41,152 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:35:41,152 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:35:41,152 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:35:41,153 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:35:41,153 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:35:41,153 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:35:41,154 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:35:41,154 basehttp 80 - Broken pipe from ('127.0.0.1', 54639)
+WARNING 2023-10-08 06:35:41,154 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:35:41,163 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:35:41,164 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:35:41,165 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:35:41,166 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:35:41,166 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:35:41,166 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:35:41,167 basehttp 80 - Broken pipe from ('127.0.0.1', 54643)
+WARNING 2023-10-08 06:35:41,167 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:35:41,168 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:35:49,566 basehttp 187 "OPTIONS /meiduo_admin/skus-images/?page=5&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 06:35:49,582 basehttp 187 "GET /meiduo_admin/skus-images/?page=5&pagesize=10 HTTP/1.1" 200 220
+INFO 2023-10-08 06:35:49,604 basehttp 187 "GET /media//avatar/default.png HTTP/1.1" 200 429534
+INFO 2023-10-08 06:36:49,606 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/images.py changed, reloading.
+INFO 2023-10-08 06:36:49,924 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:37:12,286 basehttp 187 "POST /meiduo_admin/skus-images/ HTTP/1.1" 201 174
+INFO 2023-10-08 06:37:12,301 basehttp 187 "GET /meiduo_admin/skus-images/?pagesize=10 HTTP/1.1" 200 2120
+WARNING 2023-10-08 06:37:12,333 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:37:12,334 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:37:12,334 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:37:12,335 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:37:12,335 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:37:12,335 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:37:12,336 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:37:12,336 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:37:12,336 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:37:12,336 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:37:12,336 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:37:12,337 basehttp 80 - Broken pipe from ('127.0.0.1', 55057)
+WARNING 2023-10-08 06:37:12,337 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:37:12,346 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:37:12,346 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:37:12,347 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:37:12,347 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:37:12,348 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:37:12,348 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:37:12,348 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:37:12,348 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:37:12,349 basehttp 80 - Broken pipe from ('127.0.0.1', 55062)
+INFO 2023-10-08 06:37:15,104 basehttp 187 "GET /meiduo_admin/skus-images/?page=5&pagesize=10 HTTP/1.1" 200 406
+INFO 2023-10-08 06:38:09,981 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/meiduo_admin/serializers/images.py changed, reloading.
+INFO 2023-10-08 06:38:10,311 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:40:21,419 autoreload 266 /Users/zhuwenlong/Desktop/py-vue-mall/meiduo_py_vue/meiduo/goods/models.py changed, reloading.
+INFO 2023-10-08 06:40:21,759 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:40:55,095 basehttp 187 "POST /meiduo_admin/skus-images/ HTTP/1.1" 201 174
+INFO 2023-10-08 06:40:55,106 basehttp 187 "GET /meiduo_admin/skus-images/?pagesize=10 HTTP/1.1" 200 2120
+WARNING 2023-10-08 06:40:55,140 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:40:55,141 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:40:55,141 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:40:55,142 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:40:55,142 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:40:55,142 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:40:55,143 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:40:55,143 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:40:55,143 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:40:55,143 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:40:55,144 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:40:55,144 basehttp 80 - Broken pipe from ('127.0.0.1', 56239)
+INFO 2023-10-08 06:40:55,145 basehttp 80 - Broken pipe from ('127.0.0.1', 56234)
+WARNING 2023-10-08 06:40:55,145 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:40:55,154 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:40:55,155 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:40:55,155 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:40:55,155 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:40:55,155 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:40:55,155 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:40:55,157 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:40:55,157 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:40:55,158 basehttp 80 - Broken pipe from ('127.0.0.1', 56243)
+INFO 2023-10-08 06:40:57,745 basehttp 187 "GET /meiduo_admin/skus-images/?page=5&pagesize=10 HTTP/1.1" 200 581
+INFO 2023-10-08 06:41:44,215 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-10-08 06:41:56,353 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+INFO 2023-10-08 06:41:56,357 basehttp 187 "GET /meiduo_admin/skus-images/?page=1&pagesize=10 HTTP/1.1" 200 2120
+INFO 2023-10-08 06:41:56,361 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+WARNING 2023-10-08 06:41:56,394 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:41:56,395 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:41:56,395 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:41:56,396 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:41:56,396 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:41:56,397 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:41:56,397 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:41:56,397 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:41:56,398 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:41:56,398 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:41:56,398 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:41:56,399 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:41:56,409 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:41:56,412 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:41:56,412 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:41:56,416 basehttp 80 - Broken pipe from ('127.0.0.1', 56519)
+WARNING 2023-10-08 06:41:56,417 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:41:56,417 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:41:56,417 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:41:56,418 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:41:56,419 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:42:08,302 basehttp 187 "POST /meiduo_admin/skus-images/ HTTP/1.1" 201 174
+INFO 2023-10-08 06:42:08,323 basehttp 187 "GET /meiduo_admin/skus-images/?pagesize=10 HTTP/1.1" 200 2120
+INFO 2023-10-08 06:42:16,591 basehttp 187 "GET /meiduo_admin/skus-images/?page=5&pagesize=10 HTTP/1.1" 200 756
+INFO 2023-10-08 06:42:41,293 basehttp 187 "OPTIONS /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 06:42:41,307 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 928
+INFO 2023-10-08 06:42:41,321 basehttp 187 "GET /media/brand/2023-10/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 304 0
+WARNING 2023-10-08 06:42:41,329 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149
+WARNING 2023-10-08 06:42:41,329 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795
+WARNING 2023-10-08 06:42:41,333 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:42:41,333 log 241 Not Found: /media/截屏2023-09-28_下午2.13.18.png
+WARNING 2023-10-08 06:42:41,333 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:42:41,334 basehttp 187 "GET /media/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2602
+INFO 2023-10-08 06:42:41,334 basehttp 80 - Broken pipe from ('127.0.0.1', 56717)
+INFO 2023-10-08 06:42:53,203 basehttp 187 "OPTIONS /meiduo_admin/brands/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:42:53,221 basehttp 187 "POST /meiduo_admin/brands/ HTTP/1.1" 201 187
+INFO 2023-10-08 06:42:53,241 basehttp 187 "OPTIONS /meiduo_admin/brands/?pagesize=10 HTTP/1.1" 200 0
+INFO 2023-10-08 06:42:53,251 basehttp 187 "GET /meiduo_admin/brands/?pagesize=10 HTTP/1.1" 200 1116
+WARNING 2023-10-08 06:44:23,959 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 06:44:23,961 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:44:23,962 log 241 Not Found: /meiduo_admin/goods/channels/
+WARNING 2023-10-08 06:44:23,964 basehttp 187 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 06:44:23,965 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 06:44:23,965 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:44:23,967 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 06:44:23,967 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:44:23,969 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 06:44:23,969 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+INFO 2023-10-08 06:45:31,324 basehttp 187 "GET /meiduo_admin/skus-images/?page=1&pagesize=10 HTTP/1.1" 200 2120
+WARNING 2023-10-08 06:45:31,352 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:45:31,353 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+INFO 2023-10-08 06:45:31,354 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+WARNING 2023-10-08 06:45:31,356 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:45:31,356 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:45:31,359 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:45:31,360 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:45:31,361 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:45:31,361 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:45:31,363 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:45:31,367 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:45:31,368 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:45:31,369 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:45:31,370 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:45:31,371 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:45:31,372 basehttp 80 - Broken pipe from ('127.0.0.1', 57737)
+INFO 2023-10-08 06:45:31,373 basehttp 80 - Broken pipe from ('127.0.0.1', 57739)
+INFO 2023-10-08 06:45:31,375 basehttp 80 - Broken pipe from ('127.0.0.1', 57741)
+WARNING 2023-10-08 06:45:31,375 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+INFO 2023-10-08 06:45:31,376 basehttp 80 - Broken pipe from ('127.0.0.1', 57740)
+INFO 2023-10-08 06:45:31,376 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+WARNING 2023-10-08 06:45:31,377 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:45:31,377 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:45:31,377 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:45:31,377 basehttp 80 - Broken pipe from ('127.0.0.1', 57742)
+WARNING 2023-10-08 06:45:31,378 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:45:31,379 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:45:31,379 basehttp 80 - Broken pipe from ('127.0.0.1', 57746)
+INFO 2023-10-08 06:45:31,379 basehttp 80 - Broken pipe from ('127.0.0.1', 57747)
+INFO 2023-10-08 06:45:34,707 basehttp 187 "OPTIONS /meiduo_admin/skus-images/4/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:45:34,722 basehttp 187 "GET /meiduo_admin/skus-images/4/ HTTP/1.1" 200 205
+WARNING 2023-10-08 06:45:34,737 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:45:34,738 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:46:03,495 basehttp 187 "GET /meiduo_admin/skus-images/4/ HTTP/1.1" 200 205
+INFO 2023-10-08 06:46:30,859 basehttp 187 "OPTIONS /meiduo_admin/skus/images/4/ HTTP/1.1" 200 0
+WARNING 2023-10-08 06:46:30,882 log 241 Not Found: /meiduo_admin/skus/images/4/
+WARNING 2023-10-08 06:46:30,884 basehttp 187 "PUT /meiduo_admin/skus/images/4/ HTTP/1.1" 404 19177
+WARNING 2023-10-08 06:47:03,854 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:47:03,855 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:47:03,856 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:47:03,856 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:47:03,856 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:47:03,857 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:47:03,857 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:47:03,858 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:47:03,858 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:47:03,858 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:47:03,859 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:47:03,860 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:47:03,867 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:47:03,871 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+INFO 2023-10-08 06:47:03,872 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+WARNING 2023-10-08 06:47:03,872 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:47:03,873 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:47:03,873 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:47:03,873 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:47:03,874 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:47:03,874 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:47:10,321 basehttp 187 "GET /meiduo_admin/skus-images/4/ HTTP/1.1" 200 205
+WARNING 2023-10-08 06:47:10,330 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:47:10,330 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:47:16,278 basehttp 187 "PUT /meiduo_admin/skus-images/4/ HTTP/1.1" 200 205
+INFO 2023-10-08 06:47:16,323 basehttp 187 "GET /meiduo_admin/skus-images/?pagesize=10 HTTP/1.1" 200 2120
+INFO 2023-10-08 06:48:01,528 basehttp 187 "GET /meiduo_admin/brands/?page=1&pagesize=10 HTTP/1.1" 200 1116
+WARNING 2023-10-08 06:48:01,550 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795
+WARNING 2023-10-08 06:48:01,551 log 241 Not Found: /media/截屏2023-09-28_下午2.13.18.png
+WARNING 2023-10-08 06:48:01,551 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149
+WARNING 2023-10-08 06:48:01,551 basehttp 187 "GET /media/%E6%88%AA%E5%B1%8F2023-09-28_%E4%B8%8B%E5%8D%882.13.18.png HTTP/1.1" 404 2602
+WARNING 2023-10-08 06:48:01,552 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRbvmAJ0cWAAAefuA2Xqo3496149 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:48:01,551 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrOMI-AVPWrAAAPN5YrVxw2187795 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:48:15,770 basehttp 187 "POST /meiduo_admin/brands/ HTTP/1.1" 201 188
+INFO 2023-10-08 06:48:15,791 basehttp 187 "GET /meiduo_admin/brands/?pagesize=10 HTTP/1.1" 200 1305
+INFO 2023-10-08 06:48:29,055 basehttp 187 "GET /meiduo_admin/skus-images/?page=1&pagesize=10 HTTP/1.1" 200 2120
+INFO 2023-10-08 06:48:29,058 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+WARNING 2023-10-08 06:48:29,076 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277
+WARNING 2023-10-08 06:48:29,076 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4mAEq_WAADhmMQLkZM2624277 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:48:29,080 basehttp 187 "GET /meiduo_admin/skus/simple/ HTTP/1.1" 200 1466
+WARNING 2023-10-08 06:48:29,087 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429
+WARNING 2023-10-08 06:48:29,087 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB4GAWkTlAAGuN6wB9fU4220429 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:48:29,105 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515
+WARNING 2023-10-08 06:48:29,106 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090
+WARNING 2023-10-08 06:48:29,106 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354
+WARNING 2023-10-08 06:48:29,106 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAOAIKRBAAGvaeRBMfc0463515 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:48:29,107 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965
+WARNING 2023-10-08 06:48:29,107 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPB5CALKn6AADq-Afr0eE1672090 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:48:29,108 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032
+WARNING 2023-10-08 06:48:29,108 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581
+WARNING 2023-10-08 06:48:29,108 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCAuAYqIcAAD_zetbIJ84926354 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:48:29,109 basehttp 80 - Broken pipe from ('127.0.0.1', 58568)
+WARNING 2023-10-08 06:48:29,113 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrPCBOADuuvAADq-Afr0eE9666965 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:48:29,113 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZCqAUxp9AAFti6upbx41220032 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:48:29,114 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545
+WARNING 2023-10-08 06:48:29,114 log 241 Not Found: /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757
+WARNING 2023-10-08 06:48:29,115 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDKAXCsoAANy-gDBsak1396581 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:48:29,115 basehttp 80 - Broken pipe from ('127.0.0.1', 58571)
+WARNING 2023-10-08 06:48:29,115 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZDuAHu9qAAEoJ7X2Zrk9446545 HTTP/1.1" 404 2646
+WARNING 2023-10-08 06:48:29,115 basehttp 187 "GET /media/group1/M00/00/02/CtM3BVrRZa6ANO_sAAFti6upbx40753757 HTTP/1.1" 404 2646
+INFO 2023-10-08 06:48:29,116 basehttp 80 - Broken pipe from ('127.0.0.1', 58573)
+WARNING 2023-10-08 06:48:30,634 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 06:48:30,634 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 06:48:30,635 log 241 Not Found: /meiduo_admin/goods/channels/
+WARNING 2023-10-08 06:48:30,635 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:48:30,636 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:48:30,636 basehttp 187 "GET /meiduo_admin/goods/channels/?page=1&pagesize=10 HTTP/1.1" 404 23
+WARNING 2023-10-08 06:48:30,641 log 241 Not Found: /meiduo_admin/goods/categories/
+WARNING 2023-10-08 06:48:30,642 log 241 Not Found: /meiduo_admin/goods/channel_types/
+WARNING 2023-10-08 06:48:30,642 basehttp 187 "GET /meiduo_admin/goods/categories/ HTTP/1.1" 404 23
+WARNING 2023-10-08 06:48:30,642 basehttp 187 "GET /meiduo_admin/goods/channel_types/ HTTP/1.1" 404 23
+INFO 2023-10-08 06:48:40,117 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 06:48:40,134 basehttp 187 "GET /meiduo_admin/goods/simple/ HTTP/1.1" 200 154
+INFO 2023-10-08 06:48:40,137 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1467
+INFO 2023-10-08 06:48:42,258 basehttp 187 "OPTIONS /meiduo_admin/goods/specs/7/ HTTP/1.1" 200 0
+INFO 2023-10-08 06:48:42,278 basehttp 187 "GET /meiduo_admin/goods/specs/7/ HTTP/1.1" 200 154
+INFO 2023-10-08 06:48:46,640 basehttp 187 "PUT /meiduo_admin/goods/specs/7/ HTTP/1.1" 200 159
+INFO 2023-10-08 06:48:46,679 basehttp 187 "GET /meiduo_admin/goods/specs/?page=1&pagesize=10 HTTP/1.1" 200 1472
